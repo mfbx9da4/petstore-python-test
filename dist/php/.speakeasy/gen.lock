@@ -1,0 +1,157 @@
+lockVersion: 2.0.0
+id: 1488e610-fdc4-4b03-bf9a-a7b08e613977
+management:
+  docChecksum: db1c85621774e0520d6507c71789eef0
+  docVersion: 1.0.0
+  speakeasyVersion: 0.0.1
+  generationVersion: 2.845.1
+  releaseVersion: 0.0.3
+  configChecksum: 6938f7b020f75d740e3c2a01cc8c30d4
+  repoURL: https://github.com/mfbx9da4/petstore-python-test.git
+  repoSubDirectory: dist/php
+  installationURL: https://github.com/mfbx9da4/petstore-python-test.git
+features:
+  php:
+    core: 3.9.14
+    globalServerURLs: 2.83.0
+    responseFormat: 0.1.0
+trackedFiles:
+  .gitattributes:
+    last_write_checksum: sha1:d1d000f6673e5838a636562dceffa2d9dec820df
+  USAGE.md:
+    last_write_checksum: sha1:1689f724d2fe5985288cee3c332589e13ed1f9d3
+  composer.json:
+    last_write_checksum: sha1:023829356e113eba9277f9412830b4e5c8d2610a
+  docs/Models/Components/Pet.md:
+    last_write_checksum: sha1:df6bcd81445bf387f0471ea1d3fe985fd9b91fb1
+  docs/Models/Operations/ListPetsResponse.md:
+    last_write_checksum: sha1:910954a56623cc5a79f4de356ecc846ebb84b77c
+  docs/sdks/sdk/README.md:
+    last_write_checksum: sha1:460ecf58f94344f1df39945cb4b5022400c91584
+  phpstan.neon:
+    last_write_checksum: sha1:36c7aff86142888cf147c7dceed4bbc02049e8fd
+  phpunit.xml:
+    last_write_checksum: sha1:1a2f73f76c0929634baf4e48f5718b9a2449be79
+  pint.json:
+    last_write_checksum: sha1:fc5919a12e8478ad039f103190710e526e680d73
+  rector.php:
+    last_write_checksum: sha1:2c0586f29783d1cdf80ea09f3ed0f4693329f3e6
+  src/Hooks/AfterErrorContext.php:
+    last_write_checksum: sha1:140eb30af98ae7accd55f1f52ee58ca41477edc4
+  src/Hooks/AfterErrorHook.php:
+    last_write_checksum: sha1:0331d2e581f0debbd2c91b2929f10ee04023f371
+  src/Hooks/AfterSuccessContext.php:
+    last_write_checksum: sha1:c3f111f6c2da167c76502565a767e6fd5559d4ae
+  src/Hooks/AfterSuccessHook.php:
+    last_write_checksum: sha1:ff2ae2236989257dfd876a2e12b2c175f1487227
+  src/Hooks/BeforeRequestContext.php:
+    last_write_checksum: sha1:d2726a59bb3babb0856052f66d19e4f4fe10b00a
+  src/Hooks/BeforeRequestHook.php:
+    last_write_checksum: sha1:ccafe661c93f811523ba773bd770f3a9dc451a41
+  src/Hooks/Credentials.php:
+    last_write_checksum: sha1:7b4f981accf5d3270b3cff7b1caeb3eb4dabefcf
+  src/Hooks/ErrorResponseContext.php:
+    last_write_checksum: sha1:6d1d8ab6999a48555c168a041793393182243146
+  src/Hooks/FailEarlyException.php:
+    last_write_checksum: sha1:b48a144d47988c4cd1fef656a9755d67b33e2a42
+  src/Hooks/HookContext.php:
+    last_write_checksum: sha1:f2aac205073a57a68f1beae03bd190e6eb4ec394
+  src/Hooks/Hooks.php:
+    last_write_checksum: sha1:81e5f1faf5503463f65e00781be2fec687e81822
+  src/Hooks/SDKHooks.php:
+    last_write_checksum: sha1:415eeea3f84f59bdecb3f0674f34dee4c8f2de82
+  src/Hooks/SDKInitHook.php:
+    last_write_checksum: sha1:60f7fe6d8aed94612b35e5656f4b5e7f20fd149f
+  src/Hooks/Session.php:
+    last_write_checksum: sha1:bea334a4bb70e98aa0192de171c5d1fc01430cb7
+  src/Hooks/TokenResponse.php:
+    last_write_checksum: sha1:f20a859f61b771558f5ac68ca9154a487517a4ab
+  src/Models/Components/Pet.php:
+    last_write_checksum: sha1:4aaf7fa272f954ccf58726f7bc9af0372345c689
+  src/Models/Errors/APIException.php:
+    last_write_checksum: sha1:32ed3223b296ceb83e4d9f146729b4982d834737
+  src/Models/Operations/ListPetsResponse.php:
+    last_write_checksum: sha1:af4d307444732b294fdb2805c49b344827d44c42
+  src/SDK.php:
+    last_write_checksum: sha1:0f6d446e512b07b1fb1e4a408599b1a90f42dba6
+  src/SDKBuilder.php:
+    last_write_checksum: sha1:839958c3864d26084423d4bf06236aff7a137839
+  src/SDKConfiguration.php:
+    last_write_checksum: sha1:00189efc4776e5a9a2a271b18c5a555b222bdb22
+  src/Utils/BigDecimalHandler.php:
+    last_write_checksum: sha1:2276e207691b80f9f470500a35364956ee229d7d
+  src/Utils/BigIntHandler.php:
+    last_write_checksum: sha1:cf25a35beea122740a8186627f307fd09b28257b
+  src/Utils/DateHandler.php:
+    last_write_checksum: sha1:270e65d0415feecf8f1394575dfe08ed43ace966
+  src/Utils/DateTimeHandler.php:
+    last_write_checksum: sha1:49fbc27fe536fe976c54280817bec30a638be82c
+  src/Utils/DefaultRequest.php:
+    last_write_checksum: sha1:e03f9fd6de894067e8b80684cba54d04ccd51c20
+  src/Utils/DefaultResponse.php:
+    last_write_checksum: sha1:5ffcdf29a2622391ceb5b14fe53ee8961d944b61
+  src/Utils/DefaultStream.php:
+    last_write_checksum: sha1:54e40698d4e3e9611b761b1c2a5931e9470db79e
+  src/Utils/DefaultUri.php:
+    last_write_checksum: sha1:432ca70c9a72ad2169a3e058d3e6c135a3841b2f
+  src/Utils/EnumHandler.php:
+    last_write_checksum: sha1:e6ccc116fd995d3aa92b3487d33dbb7e5cafcc4f
+  src/Utils/FormMetadata.php:
+    last_write_checksum: sha1:88a51ef0c94473353e3f2f04a1d2709d8bc5f79d
+  src/Utils/Headers.php:
+    last_write_checksum: sha1:939284bf67cb987ab84e504fa52b2a481f8568dd
+  src/Utils/JSON.php:
+    last_write_checksum: sha1:699d18afb5666cc4ff9f098abdd4a9ae5d860bf9
+  src/Utils/MixedJSONHandler.php:
+    last_write_checksum: sha1:54054fb4b0ef945280cc95d941856eabffb141b1
+  src/Utils/MultipartMetadata.php:
+    last_write_checksum: sha1:6f5c9cc3bdeea3ca179708aebcb3c9073a027822
+  src/Utils/Options.php:
+    last_write_checksum: sha1:4a4e3779a278399959d44c74db6e6e035fdce216
+  src/Utils/ParamsMetadata.php:
+    last_write_checksum: sha1:ec070f930e190e920b3b56656bee4b87a4b3e5c4
+  src/Utils/PathParameters.php:
+    last_write_checksum: sha1:73e7ae0e7cbf721c0a58d6eed09e61c07235b990
+  src/Utils/PhpDocTypeParser.php:
+    last_write_checksum: sha1:f33ac5d44031340ebaa2ab18ea96739c81a612da
+  src/Utils/QueryParameters.php:
+    last_write_checksum: sha1:84d48bcb58ed424bb4c92f4974228619280fd894
+  src/Utils/RequestBodies.php:
+    last_write_checksum: sha1:afaddf98cc24276060b95090facf63dc5ff870fb
+  src/Utils/RequestMetadata.php:
+    last_write_checksum: sha1:6004f679e0f580e00dac2ba29a7f77baef1a798e
+  src/Utils/Retry/PermanentError.php:
+    last_write_checksum: sha1:1ad672f8e39734f155faab2c9bfff750dabd7b02
+  src/Utils/Retry/RetryConfig.php:
+    last_write_checksum: sha1:02dbff23ff4dd3070c26105b0b1552937d28b2d7
+  src/Utils/Retry/RetryConfigBackoff.php:
+    last_write_checksum: sha1:399f1d6a007a04f772454e1f83e2f0e39dbb7b07
+  src/Utils/Retry/RetryConfigNone.php:
+    last_write_checksum: sha1:21a1b1c25cf56104f130665a95f8d037e9a11077
+  src/Utils/Retry/RetryStrategy.php:
+    last_write_checksum: sha1:3e4a3f46efa2fc6cf07cfbe83929d33a092dca51
+  src/Utils/Retry/RetryUtils.php:
+    last_write_checksum: sha1:b2efe48b0e94e7afbd5a6d7a4e867a4a32bb58f2
+  src/Utils/Retry/TemporaryError.php:
+    last_write_checksum: sha1:d7c5fea51b4417158d37228149dd517b26b4d60b
+  src/Utils/Security.php:
+    last_write_checksum: sha1:79b5940d147f17d72876bbe52134fac91cccb678
+  src/Utils/SecurityClient.php:
+    last_write_checksum: sha1:27e5a86ad108bf7eb010f0e971fa3b35d5301815
+  src/Utils/SecurityMetadata.php:
+    last_write_checksum: sha1:cec9716a20c7438a78de221de36ba1a4d5b199e6
+  src/Utils/ServerDetails.php:
+    last_write_checksum: sha1:8c0e79d2e08129ebed1d09c71943f0ad3773351b
+  src/Utils/SpeakeasyMetadata.php:
+    last_write_checksum: sha1:2589987f8d12f35ddd430503c0803806c1e639e0
+  src/Utils/UnionHandler.php:
+    last_write_checksum: sha1:079348d2a818561a6471d1565e9f9d2eba9c1db7
+  src/Utils/Utils.php:
+    last_write_checksum: sha1:516ea6f2b1f8148964c1f920631e31e2e28a5f59
+examples:
+  listPets:
+    speakeasy-default-list-pets:
+      responses:
+        "200":
+          application/json: [{"id": 230960, "name": "<value>"}]
+examplesVersion: 1.0.2

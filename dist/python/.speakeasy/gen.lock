@@ -1,0 +1,128 @@
+lockVersion: 2.0.0
+id: e2db087a-a4dc-4d79-b58d-d0e01cbf1b11
+management:
+  docChecksum: db1c85621774e0520d6507c71789eef0
+  docVersion: 1.0.0
+  speakeasyVersion: 0.0.1
+  generationVersion: 2.845.1
+  releaseVersion: 0.0.10
+  configChecksum: 20f0242e10e38ee21e2ae772ec0f5b11
+  repoURL: https://github.com/mfbx9da4/petstore-python-test.git
+  repoSubDirectory: dist/python
+  installationURL: https://github.com/mfbx9da4/petstore-python-test.git#subdirectory=dist/python
+features:
+  python:
+    additionalDependencies: 1.0.0
+    core: 6.0.12
+    defaultEnabledRetries: 0.2.0
+    envVarSecurityUsage: 0.3.2
+    globalSecurityCallbacks: 1.0.0
+    globalServerURLs: 3.2.0
+    methodArguments: 1.0.2
+    responseFormat: 1.1.0
+    retries: 3.0.4
+    sdkHooks: 1.2.1
+trackedFiles:
+  .gitattributes:
+    last_write_checksum: sha1:53134de3ada576f37c22276901e1b5b6d85cd2da
+  .vscode/settings.json:
+    last_write_checksum: sha1:f84632c81029fcdda8c3b0c768d02b836fc80526
+  USAGE.md:
+    last_write_checksum: sha1:5d8ddac0ceb050c66e14f2ccbe7aa876d823f6af
+  docs/models/pet.md:
+    last_write_checksum: sha1:ada9fb9c9df90a6defedede556dfcbed30a36167
+  docs/models/utils/retryconfig.md:
+    last_write_checksum: sha1:562c0f21e308ad10c27f85f75704c15592c6929d
+  docs/sdks/sdk/README.md:
+    last_write_checksum: sha1:c366c53849a9063897ff7728caef7349255942e3
+  py.typed:
+    last_write_checksum: sha1:8efc425ffe830805ffcc0f3055871bdcdc542c60
+  pylintrc:
+    last_write_checksum: sha1:cb40e5fd2885dcf20f7c572a590b2656efe282a0
+  pyproject.toml:
+    last_write_checksum: sha1:9058d7b2d75eb69e249f3887d6fc116519722141
+  scripts/prepare_readme.py:
+    last_write_checksum: sha1:03b20141f58578aa66bc6c7ef9efb47a4865c15e
+  scripts/publish.sh:
+    last_write_checksum: sha1:b290b25b36dca3d5eb1a2e66a2e1bcf2e7326cf3
+  src/openapi/__init__.py:
+    last_write_checksum: sha1:da077c0bdfcef64a4a5aea91a17292f72fa2b088
+  src/openapi/_hooks/__init__.py:
+    last_write_checksum: sha1:e3111289afd28ad557c21d9e2f918caabfb7037d
+  src/openapi/_hooks/sdkhooks.py:
+    last_write_checksum: sha1:99c1fbfaa66482cd8ce87e918d9c7d1f69c8e39c
+  src/openapi/_hooks/types.py:
+    last_write_checksum: sha1:aaa420a43a875af8913a57482abd994daab2380c
+  src/openapi/_version.py:
+    last_write_checksum: sha1:8c4f930dbda585d0fcbf141aae40a48cb671d157
+  src/openapi/basesdk.py:
+    last_write_checksum: sha1:51b582a78a548efb6bf44687966853d36ad26bd9
+  src/openapi/errors/__init__.py:
+    last_write_checksum: sha1:3867ae520e5455c684d0f1347f15e6e6cc073dc4
+  src/openapi/errors/no_response_error.py:
+    last_write_checksum: sha1:7f326424a7d5ae1bcd5c89a0d6b3dbda9138942f
+  src/openapi/errors/responsevalidationerror.py:
+    last_write_checksum: sha1:353913f9fef3e3cf05bf65a4229870adbc56336a
+  src/openapi/errors/sdkdefaulterror.py:
+    last_write_checksum: sha1:8340781f3add6c04a4eab804fcdde090b9b7409b
+  src/openapi/errors/sdkerror.py:
+    last_write_checksum: sha1:64a913063ad8d0ad31b1013fe6523221ca38c51f
+  src/openapi/httpclient.py:
+    last_write_checksum: sha1:5e55338d6ee9f01ab648cad4380201a8a3da7dd7
+  src/openapi/models/__init__.py:
+    last_write_checksum: sha1:19df690554558ff9a2f807ccb2b569de39a756b9
+  src/openapi/models/pet.py:
+    last_write_checksum: sha1:b095abfdf25a539a57f38ae2bcbc08d4046139e6
+  src/openapi/py.typed:
+    last_write_checksum: sha1:8efc425ffe830805ffcc0f3055871bdcdc542c60
+  src/openapi/sdk.py:
+    last_write_checksum: sha1:8345ae91d73bdc14bb8c8bf6b0865da393d931d4
+  src/openapi/sdkconfiguration.py:
+    last_write_checksum: sha1:5b8b75e4b15f4c673927197c0667fb275781af71
+  src/openapi/types/__init__.py:
+    last_write_checksum: sha1:140ebdd01a46f92ffc710c52c958c4eba3cf68ed
+  src/openapi/types/basemodel.py:
+    last_write_checksum: sha1:10d84aedeb9d35edfdadf2c3020caa1d24d8b584
+  src/openapi/utils/__init__.py:
+    last_write_checksum: sha1:1970816f2234ecb8785798240b0edced961de971
+  src/openapi/utils/annotations.py:
+    last_write_checksum: sha1:a4824ad65f730303e4e1e3ec1febf87b4eb46dbc
+  src/openapi/utils/datetimes.py:
+    last_write_checksum: sha1:c721e4123000e7dc61ec52b28a739439d9e17341
+  src/openapi/utils/dynamic_imports.py:
+    last_write_checksum: sha1:a1940c63feb8eddfd8026de53384baf5056d5dcc
+  src/openapi/utils/enums.py:
+    last_write_checksum: sha1:bc8c3c1285ae09ba8a094ee5c3d9c7f41fa1284d
+  src/openapi/utils/eventstreaming.py:
+    last_write_checksum: sha1:ffa870a25a7e4e2015bfd7a467ccd3aa1de97f0e
+  src/openapi/utils/forms.py:
+    last_write_checksum: sha1:0ca31459b99f761fcc6d0557a0a38daac4ad50f4
+  src/openapi/utils/headers.py:
+    last_write_checksum: sha1:7c6df233ee006332b566a8afa9ce9a245941d935
+  src/openapi/utils/logger.py:
+    last_write_checksum: sha1:f3fdb154a3f09b8cc43d74c7e9c02f899f8086e4
+  src/openapi/utils/metadata.py:
+    last_write_checksum: sha1:c6a560bd0c63ab158582f34dadb69433ea73b3d4
+  src/openapi/utils/queryparams.py:
+    last_write_checksum: sha1:b94c3f314fd3da0d1d215afc2731f48748e2aa59
+  src/openapi/utils/requestbodies.py:
+    last_write_checksum: sha1:41e2d2d2d3ecc394c8122ca4d4b85e1c3e03f054
+  src/openapi/utils/retries.py:
+    last_write_checksum: sha1:471372f5c5d1dd5583239c9cf3c75f1b636e5d87
+  src/openapi/utils/security.py:
+    last_write_checksum: sha1:435dd8b180cefcd733e635b9fa45512da091d9c0
+  src/openapi/utils/serializers.py:
+    last_write_checksum: sha1:ce1d8d7f500a9ccba0aeca5057cee9c271f4dfd7
+  src/openapi/utils/unmarshal_json_response.py:
+    last_write_checksum: sha1:f1ed79fcd687eb6f939fef948d0545a1ab8ab8f0
+  src/openapi/utils/url.py:
+    last_write_checksum: sha1:6479961baa90432ca25626f8e40a7bbc32e73b41
+  src/openapi/utils/values.py:
+    last_write_checksum: sha1:acaa178a7c41ddd000f58cc691e4632d925b2553
+examples:
+  listPets:
+    speakeasy-default-list-pets:
+      responses:
+        "200":
+          application/json: [{"id": 230960, "name": "<value>"}]
+examplesVersion: 1.0.2

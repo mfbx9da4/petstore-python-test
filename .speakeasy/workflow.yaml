@@ -1,0 +1,33 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    petstore:
+        inputs:
+            - location: ./openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/speakeasy-self/speakeasy-self/petstore
+targets:
+    csharp:
+        target: csharp
+        source: petstore
+        output: dist/csharp
+    java:
+        target: java
+        source: petstore
+        output: dist/java
+    php:
+        target: php
+        source: petstore
+        output: dist/php
+    python:
+        target: python
+        source: petstore
+        output: dist/python
+    ruby:
+        target: ruby
+        source: petstore
+        output: dist/ruby
+    typescript:
+        target: typescript
+        source: petstore
+        output: dist/typescript

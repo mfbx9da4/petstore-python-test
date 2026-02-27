@@ -1,0 +1,233 @@
+lockVersion: 2.0.0
+id: 743a7027-14c3-4ac7-90ef-3a3941ec9254
+management:
+  docChecksum: db1c85621774e0520d6507c71789eef0
+  docVersion: 1.0.0
+  speakeasyVersion: 0.0.1
+  generationVersion: 2.845.1
+  releaseVersion: 0.0.3
+  configChecksum: 9e73d4bd354c67f7e15e549965f1a4d3
+  repoURL: https://github.com/mfbx9da4/petstore-python-test.git
+  repoSubDirectory: dist/java
+  installationURL: https://github.com/mfbx9da4/petstore-python-test
+features:
+  java:
+    additionalDependencies: 0.1.0
+    core: 3.55.14
+    globalSecurityCallbacks: 0.1.0
+    globalServerURLs: 2.83.0
+    sdkHooks: 1.2.0
+trackedFiles:
+  .gitattributes:
+    last_write_checksum: sha1:18563f88a3e50e55f2ae6f2b62440464808f5d6f
+  USAGE.md:
+    last_write_checksum: sha1:b0086d7aff5ad101fb9bf7ef664ba3d5d5aa77ab
+  build.gradle:
+    last_write_checksum: sha1:7e665ac03398b81bb4f60bd3c6c3a2e0319a5369
+  docs/models/components/Pet.md:
+    last_write_checksum: sha1:2b4adb396344254e748353f322d7f146075ecfa4
+  docs/models/operations/ListPetsResponse.md:
+    last_write_checksum: sha1:afb258e42b5c893fd1c0eca1cadf838bcb9558fa
+  docs/sdks/sdk/README.md:
+    last_write_checksum: sha1:efaef73fc328cfbd5337eb781a7586921983090e
+  docs/utils/Blob.md:
+    last_write_checksum: sha1:8075fdffdb8ba294882ae786ffebe576a6c666d7
+  gradle.properties:
+    last_write_checksum: sha1:989a8215939fd7dbf3de395b36852491b72893ce
+  gradle/wrapper/gradle-wrapper.jar:
+    last_write_checksum: sha1:f725fb1467084142d74fd7cd8eab691ab3442611
+  gradle/wrapper/gradle-wrapper.properties:
+    last_write_checksum: sha1:cd2b4a92ef78f65abc751f0619d159ab3f8f973e
+  gradlew:
+    last_write_checksum: sha1:680217d55865c44c2dbc51b106a01ca14152a615
+  gradlew.bat:
+    last_write_checksum: sha1:755607dcbac0ba8adba338ef00aafc1177ceb2b5
+  publishing.gradle:
+    last_write_checksum: sha1:9a592653f464f4537c4572e13440496c1615b1dc
+  settings.gradle:
+    last_write_checksum: sha1:b5b2f4aa4269fea383621740c89e1a847d952da9
+  spring/openapi-spring-boot-autoconfigure/build.gradle:
+    last_write_checksum: sha1:8957049f23cdc1bb1aa024d3810ce9bf7dd721cf
+  spring/openapi-spring-boot-autoconfigure/src/main/java/org/openapis/openapi/ConditionalOnPropertyPrefix.java:
+    last_write_checksum: sha1:467852286ca6090f9793a6b66f79b9f989f9dcb6
+  spring/openapi-spring-boot-autoconfigure/src/main/java/org/openapis/openapi/OnPropertyPrefixCondition.java:
+    last_write_checksum: sha1:bede3dd966bee70e820c56c5c2b1e52d83f81021
+  spring/openapi-spring-boot-autoconfigure/src/main/java/org/openapis/openapi/OpenapiAutoConfig.java:
+    last_write_checksum: sha1:e67af83836841031c68b4377d702249c744291cf
+  spring/openapi-spring-boot-autoconfigure/src/main/java/org/openapis/openapi/OpenapiAutoConfigProperties.java:
+    last_write_checksum: sha1:c276eba8f3a1152b02b33f1de7414a77962425e2
+  ? spring/openapi-spring-boot-autoconfigure/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+  : last_write_checksum: sha1:99b642db590c638b2cd477d9c51da616bcf501f6
+  spring/openapi-spring-boot-starter/build.gradle:
+    last_write_checksum: sha1:fae2e81ff57476a086a33944c356284ddf11aca6
+  src/main/java/org/openapis/openapi/AsyncSDK.java:
+    last_write_checksum: sha1:407c492f2a2b38773eac62bebc82a4eb260da1be
+  src/main/java/org/openapis/openapi/SDK.java:
+    last_write_checksum: sha1:9cb8be5ba63249dbdcd8b6281a139bbaae67dca8
+  src/main/java/org/openapis/openapi/SDKConfiguration.java:
+    last_write_checksum: sha1:3c1a1680a052b041ed9a773e50db655a6338249d
+  src/main/java/org/openapis/openapi/SecuritySource.java:
+    last_write_checksum: sha1:bd494cc8f77e7c0582bae60e95ce48ed4e715935
+  src/main/java/org/openapis/openapi/models/components/Pet.java:
+    last_write_checksum: sha1:4c0bf7bef52777cce721d267cb3fc0f154ab60ec
+  src/main/java/org/openapis/openapi/models/components/Security.java:
+    last_write_checksum: sha1:814227fbc475ea224251346a3608b5483d23ac27
+  src/main/java/org/openapis/openapi/models/errors/APIException.java:
+    last_write_checksum: sha1:8fe07657e24a9edcec3861cdbb10c716a0bbd648
+  src/main/java/org/openapis/openapi/models/errors/AsyncAPIException.java:
+    last_write_checksum: sha1:549492dd6d07e04835370ae45aab260038e00e22
+  src/main/java/org/openapis/openapi/models/errors/AuthException.java:
+    last_write_checksum: sha1:a85324763f0516cf19fbe2c18d6de3db5039a952
+  src/main/java/org/openapis/openapi/models/errors/SDKException.java:
+    last_write_checksum: sha1:7e02615cd693bea83af1c65d3d932760dde8ebcb
+  src/main/java/org/openapis/openapi/models/operations//async/ListPetsRequestBuilder.java:
+    last_write_checksum: sha1:df1a52f04b3bb0cde466cf408dbb78c64740b659
+  src/main/java/org/openapis/openapi/models/operations/ListPetsRequestBuilder.java:
+    last_write_checksum: sha1:f001b9476486914c7387818fd59506dabc8657fe
+  src/main/java/org/openapis/openapi/models/operations/ListPetsResponse.java:
+    last_write_checksum: sha1:419988613cd4e854771683879e6b426bae9fc10b
+  src/main/java/org/openapis/openapi/models/operations/async/ListPetsResponse.java:
+    last_write_checksum: sha1:c9364d83a23473ccedbd8cef39ed9bfe56a051e4
+  src/main/java/org/openapis/openapi/operations/ListPets.java:
+    last_write_checksum: sha1:772e0f4d5a5617069f0e776a7b50b5add4b931c7
+  src/main/java/org/openapis/openapi/operations/Operations.java:
+    last_write_checksum: sha1:254b5b26b09d62e02a74dbf80c3d9f256f734ea3
+  src/main/java/org/openapis/openapi/utils/AsyncHook.java:
+    last_write_checksum: sha1:be5e1e9c586196469a4b59f66a030097fbb4039f
+  src/main/java/org/openapis/openapi/utils/AsyncHooks.java:
+    last_write_checksum: sha1:b35986cd2d98f94141492e9c4abd481dc7903d2b
+  src/main/java/org/openapis/openapi/utils/AsyncResponse.java:
+    last_write_checksum: sha1:fe3f030e926b39564d7ebdb994968cb5a1e7e4c7
+  src/main/java/org/openapis/openapi/utils/AsyncRetries.java:
+    last_write_checksum: sha1:82edc03bd8f566bf651ec5b9b6d874918b776aab
+  src/main/java/org/openapis/openapi/utils/AsyncRetryableException.java:
+    last_write_checksum: sha1:c82138577cee3b9b66fa4014be06e1943ea2ed49
+  src/main/java/org/openapis/openapi/utils/BackoffStrategy.java:
+    last_write_checksum: sha1:557e9da304ae0d4ca5605dd692a838181505f151
+  src/main/java/org/openapis/openapi/utils/BigDecimalString.java:
+    last_write_checksum: sha1:57cbb5f883907d3d0d50b89b6f334333027a60a0
+  src/main/java/org/openapis/openapi/utils/BigIntegerString.java:
+    last_write_checksum: sha1:f721e582eb4fcfa42ea56fdc71739e91b9d60930
+  src/main/java/org/openapis/openapi/utils/Blob.java:
+    last_write_checksum: sha1:ec5952a42c29f400aec9c38915cc7f3f983bafd7
+  src/main/java/org/openapis/openapi/utils/BlockingParser.java:
+    last_write_checksum: sha1:bf0ba52a263a20dec6fcd0ca14bff6f4be1b4ae9
+  src/main/java/org/openapis/openapi/utils/Constants.java:
+    last_write_checksum: sha1:f299c9f9acfc1385fc97f3769e400d1d7d381b9f
+  src/main/java/org/openapis/openapi/utils/CopiableInputStream.java:
+    last_write_checksum: sha1:2f07113deb09bfc7f59aeeb4bc205f06e4a5d46a
+  src/main/java/org/openapis/openapi/utils/Deserializers.java:
+    last_write_checksum: sha1:635a9edf882c39ef50e8310c3cea8ef821cb2463
+  src/main/java/org/openapis/openapi/utils/EventStream.java:
+    last_write_checksum: sha1:9a7413f33e269c523997ee35f8fbec9dc174eee5
+  src/main/java/org/openapis/openapi/utils/EventStreamMessage.java:
+    last_write_checksum: sha1:332c1da64c1b925d7bc1e1c1c9600bbb99cc858b
+  src/main/java/org/openapis/openapi/utils/Exceptions.java:
+    last_write_checksum: sha1:a7b289c7b87f63bc1472f5d62ea78a07957a1342
+  src/main/java/org/openapis/openapi/utils/FormMetadata.java:
+    last_write_checksum: sha1:26d7a027ee2bcd7f354edec180a79ece3d8ff2d5
+  src/main/java/org/openapis/openapi/utils/GenericTypeIdResolver.java:
+    last_write_checksum: sha1:7138d9f9288795c3901cc9ac8e3ff5d1e4751aa8
+  src/main/java/org/openapis/openapi/utils/Globals.java:
+    last_write_checksum: sha1:0a158b44063db2f04eedb33fa17b032581fa53d1
+  src/main/java/org/openapis/openapi/utils/HTTPClient.java:
+    last_write_checksum: sha1:27c5e5684374f356d299c2b0b6643f5d63d0deeb
+  src/main/java/org/openapis/openapi/utils/HTTPRequest.java:
+    last_write_checksum: sha1:4f843c54ba9446387835b271dff7ac3ad8a373dc
+  src/main/java/org/openapis/openapi/utils/HasSecurity.java:
+    last_write_checksum: sha1:fb9e7e7ad07bc60204385a9a27027c42f7b3e985
+  src/main/java/org/openapis/openapi/utils/HeaderMetadata.java:
+    last_write_checksum: sha1:c958dde69ed6b909df96fe98ecf9e7fede8a89f2
+  src/main/java/org/openapis/openapi/utils/Headers.java:
+    last_write_checksum: sha1:528e0d5986ef02a6984b6f4f2a634d16c31d99d1
+  src/main/java/org/openapis/openapi/utils/Helpers.java:
+    last_write_checksum: sha1:9b98152c77db5ea8c8bfe4789c844014f203561e
+  src/main/java/org/openapis/openapi/utils/Hook.java:
+    last_write_checksum: sha1:34d8c056075863b77937ee353c8c0f762060bf57
+  src/main/java/org/openapis/openapi/utils/HookAdapters.java:
+    last_write_checksum: sha1:83ff7b313985a48ddc5391aae3cb975c0146ac6e
+  src/main/java/org/openapis/openapi/utils/Hooks.java:
+    last_write_checksum: sha1:df7d2d85dbac5bac8da75d69a724c37176790107
+  src/main/java/org/openapis/openapi/utils/JSON.java:
+    last_write_checksum: sha1:4d1b6f061172bb97992cbd9d89ceecfd1125ca6d
+  src/main/java/org/openapis/openapi/utils/LazySingletonValue.java:
+    last_write_checksum: sha1:17cb96a1763d742e3a343b9c78d92f6d11c0b209
+  src/main/java/org/openapis/openapi/utils/Metadata.java:
+    last_write_checksum: sha1:48b2525959008fb8899fe23c58971dd28515a911
+  src/main/java/org/openapis/openapi/utils/Multipart.java:
+    last_write_checksum: sha1:7e133f534a09069ab104d5b87eb5a9c6e27fdc75
+  src/main/java/org/openapis/openapi/utils/MultipartFormMetadata.java:
+    last_write_checksum: sha1:e527213fe1a52e15088a1ec969f1592f6f43a0c9
+  src/main/java/org/openapis/openapi/utils/NameValue.java:
+    last_write_checksum: sha1:77b262a8fbea858bd6a28aa0130e0836d09b384f
+  src/main/java/org/openapis/openapi/utils/NonRetryableException.java:
+    last_write_checksum: sha1:619be8f497a4118096b8a912f86701e937023d91
+  src/main/java/org/openapis/openapi/utils/OneOfDeserializer.java:
+    last_write_checksum: sha1:618bdb1cbffe383a8d6657d47cd736d30d29e77a
+  src/main/java/org/openapis/openapi/utils/Options.java:
+    last_write_checksum: sha1:9148fecc7584d6bf1a80e981064efe73898fee25
+  src/main/java/org/openapis/openapi/utils/PathParamsMetadata.java:
+    last_write_checksum: sha1:86178a4e332a0b8e592dbf51d86f431cebd42333
+  src/main/java/org/openapis/openapi/utils/QueryEncoding.java:
+    last_write_checksum: sha1:a9a4723948f823efba6b01ff462dee794c259caf
+  src/main/java/org/openapis/openapi/utils/QueryParameter.java:
+    last_write_checksum: sha1:574891eb7969ec281a3a8880e26c8b7ff272e8ff
+  src/main/java/org/openapis/openapi/utils/QueryParameters.java:
+    last_write_checksum: sha1:6f5a030d8a780926755c48d3451e57f4f577172f
+  src/main/java/org/openapis/openapi/utils/QueryParamsMetadata.java:
+    last_write_checksum: sha1:13041952e47c340c1e645243a13f1b287240c887
+  src/main/java/org/openapis/openapi/utils/RecordingClient.java:
+    last_write_checksum: sha1:488ad2aae852a45823edee457fff1003a3dea499
+  src/main/java/org/openapis/openapi/utils/Reflections.java:
+    last_write_checksum: sha1:ebd7bfc5330457ad27d3257c5377bb15be355ddb
+  src/main/java/org/openapis/openapi/utils/RequestBody.java:
+    last_write_checksum: sha1:81d5bd06f7a21081f2cebe75b70b9fa8021ceded
+  src/main/java/org/openapis/openapi/utils/RequestMetadata.java:
+    last_write_checksum: sha1:ad8ecd2ab3c5c8190328ebc4a4b656f1a6d381b3
+  src/main/java/org/openapis/openapi/utils/Response.java:
+    last_write_checksum: sha1:84ff663fd8ba6fd26acbc1d2fe262f4812ac4f8a
+  src/main/java/org/openapis/openapi/utils/ResponseWithBody.java:
+    last_write_checksum: sha1:74350c8974155669a0912c76b14f5fa826df9df0
+  src/main/java/org/openapis/openapi/utils/Retries.java:
+    last_write_checksum: sha1:a2f600be57d1acc61c58addd897b429b1e479bd0
+  src/main/java/org/openapis/openapi/utils/RetryConfig.java:
+    last_write_checksum: sha1:9d895ba4e7a883ee199dfbebc3bbe87d8d6a32db
+  src/main/java/org/openapis/openapi/utils/RetryableException.java:
+    last_write_checksum: sha1:7d2c333da47f827d83e6d96011fbc228b719a7e7
+  src/main/java/org/openapis/openapi/utils/Security.java:
+    last_write_checksum: sha1:64df8d7b1b0eb84e20a454b23dd901a7bd6f8829
+  src/main/java/org/openapis/openapi/utils/SecurityMetadata.java:
+    last_write_checksum: sha1:349c0d29d62d65393b080c50e302daeea4e34ffe
+  src/main/java/org/openapis/openapi/utils/SerializedBody.java:
+    last_write_checksum: sha1:62883be6ac215a5697a90f073a19954ead723f3a
+  src/main/java/org/openapis/openapi/utils/SessionManager.java:
+    last_write_checksum: sha1:ab76ee2fc261f976c76413804e4739bd49c5578c
+  src/main/java/org/openapis/openapi/utils/SpeakeasyHTTPClient.java:
+    last_write_checksum: sha1:9905a1ad9e23ec227b8b4056e01c7287ebaecba9
+  src/main/java/org/openapis/openapi/utils/SpeakeasyLogger.java:
+    last_write_checksum: sha1:ad239c8fec81792e27ec1ab349116d6c2e0998a1
+  src/main/java/org/openapis/openapi/utils/SpeakeasyMetadata.java:
+    last_write_checksum: sha1:29c8d42d98474edf1521c14fbd1ac713cbb000bd
+  src/main/java/org/openapis/openapi/utils/StreamingParser.java:
+    last_write_checksum: sha1:1b6b3982d76fd92137fd6cbf544c22c246df891f
+  src/main/java/org/openapis/openapi/utils/TypedObject.java:
+    last_write_checksum: sha1:306197cf2fde0d1636e636c0e016a73f9ab6e955
+  src/main/java/org/openapis/openapi/utils/Types.java:
+    last_write_checksum: sha1:c898622f5a9cf453add73d5f4cc13d73e55ad9c7
+  src/main/java/org/openapis/openapi/utils/UnknownType.java:
+    last_write_checksum: sha1:752fa95226d2790011e8f1ce1d3a2445739634c7
+  src/main/java/org/openapis/openapi/utils/Utf8UrlEncoder.java:
+    last_write_checksum: sha1:120d5891f955debe54bf9be78c14b873a1333667
+  src/main/java/org/openapis/openapi/utils/Utils.java:
+    last_write_checksum: sha1:340c9d3aa1da7750e5808e680720cbe6ce0519ec
+  src/main/java/org/openapis/openapi/utils/reactive/EventStream.java:
+    last_write_checksum: sha1:d5c22042e6e8d5653b72dee80a4edc0d53a34055
+  src/main/java/org/openapis/openapi/utils/reactive/ReactiveUtils.java:
+    last_write_checksum: sha1:5207f5c82b92509623a20667c68130688b7433cd
+examples:
+  listPets:
+    speakeasy-default-list-pets:
+      responses:
+        "200":
+          application/json: [{"id": 230960, "name": "<value>"}]
+examplesVersion: 1.0.2

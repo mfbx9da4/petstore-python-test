@@ -1,0 +1,74 @@
+speakeasyVersion: 0.0.1
+sources:
+    petstore:
+        sourceNamespace: petstore
+        sourceRevisionDigest: sha256:6a358d25474eced0c73e4a19cd3d5c399de2b68cdc37291eff288a3845ac309a
+        sourceBlobDigest: sha256:c49a978c22aa63014e03a5ef157615e87a723505e4ae7953a90aabb0d8b84f5f
+        tags:
+            - latest
+            - 1.0.0
+targets:
+    csharp:
+        source: petstore
+        sourceNamespace: petstore
+        sourceRevisionDigest: sha256:6a358d25474eced0c73e4a19cd3d5c399de2b68cdc37291eff288a3845ac309a
+        sourceBlobDigest: sha256:c49a978c22aa63014e03a5ef157615e87a723505e4ae7953a90aabb0d8b84f5f
+    java:
+        source: petstore
+        sourceNamespace: petstore
+        sourceRevisionDigest: sha256:6a358d25474eced0c73e4a19cd3d5c399de2b68cdc37291eff288a3845ac309a
+        sourceBlobDigest: sha256:c49a978c22aa63014e03a5ef157615e87a723505e4ae7953a90aabb0d8b84f5f
+    php:
+        source: petstore
+        sourceNamespace: petstore
+        sourceRevisionDigest: sha256:6a358d25474eced0c73e4a19cd3d5c399de2b68cdc37291eff288a3845ac309a
+        sourceBlobDigest: sha256:c49a978c22aa63014e03a5ef157615e87a723505e4ae7953a90aabb0d8b84f5f
+    python:
+        source: petstore
+        sourceNamespace: petstore
+        sourceRevisionDigest: sha256:6a358d25474eced0c73e4a19cd3d5c399de2b68cdc37291eff288a3845ac309a
+        sourceBlobDigest: sha256:c49a978c22aa63014e03a5ef157615e87a723505e4ae7953a90aabb0d8b84f5f
+    ruby:
+        source: petstore
+        sourceNamespace: petstore
+        sourceRevisionDigest: sha256:6a358d25474eced0c73e4a19cd3d5c399de2b68cdc37291eff288a3845ac309a
+        sourceBlobDigest: sha256:c49a978c22aa63014e03a5ef157615e87a723505e4ae7953a90aabb0d8b84f5f
+    typescript:
+        source: petstore
+        sourceNamespace: petstore
+        sourceRevisionDigest: sha256:6a358d25474eced0c73e4a19cd3d5c399de2b68cdc37291eff288a3845ac309a
+        sourceBlobDigest: sha256:c49a978c22aa63014e03a5ef157615e87a723505e4ae7953a90aabb0d8b84f5f
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        petstore:
+            inputs:
+                - location: ./openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/speakeasy-self/speakeasy-self/petstore
+    targets:
+        csharp:
+            target: csharp
+            source: petstore
+            output: dist/csharp
+        java:
+            target: java
+            source: petstore
+            output: dist/java
+        php:
+            target: php
+            source: petstore
+            output: dist/php
+        python:
+            target: python
+            source: petstore
+            output: dist/python
+        ruby:
+            target: ruby
+            source: petstore
+            output: dist/ruby
+        typescript:
+            target: typescript
+            source: petstore
+            output: dist/typescript

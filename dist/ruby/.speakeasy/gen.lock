@@ -1,0 +1,117 @@
+lockVersion: 2.0.0
+id: 32c7887b-e0e0-40f1-9de6-afb7e154d3c6
+management:
+  docChecksum: db1c85621774e0520d6507c71789eef0
+  docVersion: 1.0.0
+  speakeasyVersion: 0.0.1
+  generationVersion: 2.845.1
+  releaseVersion: 0.0.3
+  configChecksum: f847939d5bb9a6f684bc7d0f05183566
+  repoURL: https://github.com/mfbx9da4/petstore-python-test.git
+  repoSubDirectory: dist/ruby
+  installationURL: https://github.com/mfbx9da4/petstore-python-test -d dist/ruby
+features:
+  ruby:
+    core: 3.11.19
+    globalServerURLs: 2.83.0
+    responseFormat: 0.1.0
+trackedFiles:
+  .gitattributes:
+    last_write_checksum: sha1:ddc1beb0214aecada04e60ef2e038729bd8d20e6
+  .rubocop-strict.yml:
+    last_write_checksum: sha1:452cf23c1aac793c4f54d66fced59fdacab69142
+  .rubocop.yml:
+    last_write_checksum: sha1:43650c745c2254f02a2966922cb744e87115505b
+  Gemfile:
+    last_write_checksum: sha1:8c1b6fa9505f61abd0fb6741f8094e9655a55495
+  Gemfile.lock:
+    last_write_checksum: sha1:d3ff681d59f39fb482c59bcc03069c806eb862ee
+  Rakefile:
+    last_write_checksum: sha1:c572639efdae8c7b24141ee5c02d8f009e101ed8
+  USAGE.md:
+    last_write_checksum: sha1:a20769adf52c9ff920d54a6bb102b8cc6060f2d6
+  docs/models/components/pet.md:
+    last_write_checksum: sha1:31246aea20f0ac2200a9a9d70bd926ebed11d7b5
+  docs/models/operations/listpetsresponse.md:
+    last_write_checksum: sha1:e01776e130298c7f7901280d7413b0d8680dcc02
+  docs/sdks/sdk/README.md:
+    last_write_checksum: sha1:652f37241384a807733a2eb6dc0df0afcbd6edff
+  lib/crystalline.rb:
+    last_write_checksum: sha1:b6ec0a2833f58ba9a6f07c9637fdca05e59006d3
+  lib/crystalline/enum.rbi:
+    last_write_checksum: sha1:548b19d96bcf832792c1e54f0065c293934a9ce5
+  lib/crystalline/metadata_fields.rb:
+    last_write_checksum: sha1:fd3fb667a441554f212e7eff01bcdb608bdd3f44
+  lib/crystalline/module.rb:
+    last_write_checksum: sha1:982a74d52424b54de1760728a85e4c3be15cd875
+  lib/crystalline/types.rb:
+    last_write_checksum: sha1:5771bd3d9e0471a77184079a7455aec60d2462b2
+  lib/crystalline/utils.rb:
+    last_write_checksum: sha1:b32469851da6f9f729e484ade6a23b38639a652a
+  lib/open_api_sdk/models/callbacks.rb:
+    last_write_checksum: sha1:82a2ea3e0fff97b48e38170b326189e9ca8a676e
+  lib/open_api_sdk/models/components.rb:
+    last_write_checksum: sha1:85240cc9cd8321ed94d96a6f6ee9d158b2bc0347
+  lib/open_api_sdk/models/components/pet.rb:
+    last_write_checksum: sha1:32bc4f52aa6db2264fa0fe4baabd3bc6976456a4
+  lib/open_api_sdk/models/components/pet.rbi:
+    last_write_checksum: sha1:2dffd4e86e95916b90a558bbc28bef0f57bf063b
+  lib/open_api_sdk/models/errors.rb:
+    last_write_checksum: sha1:86f3db45835e685717a21dab488ff91544915f7b
+  lib/open_api_sdk/models/errors/apierror.rb:
+    last_write_checksum: sha1:3ed66771d2d1a972dd5208e5efc0092f752361b5
+  lib/open_api_sdk/models/errors/apierror.rbi:
+    last_write_checksum: sha1:4501f73f1484c2a95487a62013038de67f120528
+  lib/open_api_sdk/models/operations.rb:
+    last_write_checksum: sha1:46aa6088ccca916eef666b30ae4bfbd374669a0a
+  lib/open_api_sdk/models/operations/listpets_response.rb:
+    last_write_checksum: sha1:97b26029bced798d1c965788e439a66b0162d764
+  lib/open_api_sdk/models/operations/listpets_response.rbi:
+    last_write_checksum: sha1:cd2d995c1bd58aadeeeacd702de0fdd6fe00bb61
+  lib/open_api_sdk/sdk.rb:
+    last_write_checksum: sha1:37e99dfe6bdca508fd3be939c489e0e17092dfb3
+  lib/open_api_sdk/sdk_hooks/hooks.rb:
+    last_write_checksum: sha1:1c53b209babd24cef5470310581a00ac96cf52fe
+  lib/open_api_sdk/sdk_hooks/types.rb:
+    last_write_checksum: sha1:319d7a80741d2d1fe8e09db18d0cebaef5f50b4b
+  lib/open_api_sdk/sdkconfiguration.rb:
+    last_write_checksum: sha1:9e8797c3d80ebf4a24cdceef3463b509c6ae2cc8
+  lib/open_api_sdk/sdkconfiguration.rbi:
+    last_write_checksum: sha1:b581c83e36165fe3b40caf5b56e09308208466cc
+  lib/open_api_sdk/utils/forms.rb:
+    last_write_checksum: sha1:db7c90f11b42296018de3f599ed6934a7c3a9b1a
+  lib/open_api_sdk/utils/headers.rb:
+    last_write_checksum: sha1:8b4de2f0046843ad0aef7d0e7ee6567c7539d427
+  lib/open_api_sdk/utils/query_params.rb:
+    last_write_checksum: sha1:239cc17c4ec751dbf327108600cac54a932d317d
+  lib/open_api_sdk/utils/request_bodies.rb:
+    last_write_checksum: sha1:17b3ca5a6b3ed62a13f30c3ecd2590a133f6b49d
+  lib/open_api_sdk/utils/retries.rb:
+    last_write_checksum: sha1:b302ab3a24ebe7bdb812ebd443a37cf2c00f79ad
+  lib/open_api_sdk/utils/security.rb:
+    last_write_checksum: sha1:36fb941f3faedd211bb023804a33ffbc903884e3
+  lib/open_api_sdk/utils/url.rb:
+    last_write_checksum: sha1:3bfd065a74d847940ece3f408a4eb1148eec0871
+  lib/open_api_sdk/utils/utils.rb:
+    last_write_checksum: sha1:5bcc8f292dc707f522c3f0733536297737f92c33
+  lib/openapi.rb:
+    last_write_checksum: sha1:7969c3cb6d4d1197251b68cc489fb39dbd3ea1af
+  openapi.gemspec:
+    last_write_checksum: sha1:b9e0aca40a6ed59aefce2422ed9cbc5a03a1b2fc
+  sorbet/config:
+    last_write_checksum: sha1:d02b32628dad70edc5929a9b9801d5e2dca15d40
+  sorbet/rbi/annotations/.gitattributes:
+    last_write_checksum: sha1:c683580f06441d46622a00a7aac20eeefdae4087
+  sorbet/rbi/gems/.gitattributes:
+    last_write_checksum: sha1:737a5b4c7736cfd651133334bf4cdfabbe78ac69
+  sorbet/tapioca/config.yml:
+    last_write_checksum: sha1:0b9c1ef96625b48230f1e888e468628d36d9d287
+  sorbet/tapioca/require.rb:
+    last_write_checksum: sha1:29b5fbd716704c2996f36f62fb32515705cfe56a
+examples:
+  listPets:
+    speakeasy-default-list-pets:
+      responses:
+        "200":
+          application/json: [{"id": 230960, "name": "<value>"}]
+examplesVersion: 1.0.2

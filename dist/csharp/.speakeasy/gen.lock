@@ -1,0 +1,105 @@
+lockVersion: 2.0.0
+id: fec73902-56c0-4e42-8491-355bd4712d89
+management:
+  docChecksum: db1c85621774e0520d6507c71789eef0
+  docVersion: 1.0.0
+  speakeasyVersion: 0.0.1
+  generationVersion: 2.845.1
+  releaseVersion: 0.0.3
+  configChecksum: 21637279f9e031dbe4619a60d0c23158
+  repoURL: https://github.com/mfbx9da4/petstore-python-test.git
+  repoSubDirectory: dist/csharp
+  installationURL: https://github.com/mfbx9da4/petstore-python-test
+features:
+  csharp:
+    additionalDependencies: 0.1.0
+    core: 3.15.15
+    globalSecurityCallbacks: 0.1.0
+    globalServerURLs: 2.83.0
+    intellisenseMarkdownSupport: 0.1.0
+    responseFormat: 0.0.4
+    sdkHooks: 0.3.0
+trackedFiles:
+  .gitattributes:
+    last_write_checksum: sha1:6cf623aa5081ea7f1e32b99d74fac393718a29cf
+  Openapi.sln:
+    last_write_checksum: sha1:62f666a0506157aa06035deeb43101492a10c86f
+  USAGE.md:
+    last_write_checksum: sha1:9211c8d2507bcfdb51c619e8f90d575f1d21beaa
+  docs/Models/Components/HTTPMetadata.md:
+    last_write_checksum: sha1:08fe4d295519e310847d7500b27fd60eb5124293
+  docs/Models/Components/Pet.md:
+    last_write_checksum: sha1:250d0ab520281f2a9794447eef5c8bcabb9485a1
+  docs/Models/Requests/ListPetsResponse.md:
+    last_write_checksum: sha1:d4187801ff3d542832a8d9a8a1c1e49bff373f7d
+  docs/sdks/sdk/README.md:
+    last_write_checksum: sha1:27cbd011c561fc18a9d948031246490daea5ec75
+  global.json:
+    last_write_checksum: sha1:3161b880f51cd74e7d1dea069b541d8bf4736dc9
+  src/Openapi/Hooks/HookTypes.cs:
+    last_write_checksum: sha1:43332606eb21fc03aaf896a609fa26a8c847367c
+  src/Openapi/Hooks/SDKHooks.cs:
+    last_write_checksum: sha1:1a7f32d4c840dbc522eabf9ee182d8bc07cac8ab
+  src/Openapi/Models/Components/HTTPMetadata.cs:
+    last_write_checksum: sha1:907a559c9d02ab6a24e8122c3adc3c89ad421615
+  src/Openapi/Models/Components/Pet.cs:
+    last_write_checksum: sha1:4419656c8c89f33e00c0212462442ce36aa3879f
+  src/Openapi/Models/Errors/APIException.cs:
+    last_write_checksum: sha1:886d7cea903a67e73b7ed6addc0bad75ac06447d
+  src/Openapi/Models/Errors/ResponseValidationException.cs:
+    last_write_checksum: sha1:8821f1a466b3b1d8520d7886b114aeac4e930423
+  src/Openapi/Models/Errors/SDKException.cs:
+    last_write_checksum: sha1:94cacd4fa91bf2480e5bb2055ffc292ef104b6dc
+  src/Openapi/Models/Requests/ListPetsResponse.cs:
+    last_write_checksum: sha1:ea406168e6d19d9eb59363811cda1484623092f0
+  src/Openapi/Openapi.csproj:
+    last_write_checksum: sha1:ef2deadc91fe7fe7a3869ba120add15b579aec4e
+  src/Openapi/SDK.cs:
+    last_write_checksum: sha1:b7e67613af8abe1a16e846ab92c8f005beaedf97
+  src/Openapi/SDKConfig.cs:
+    last_write_checksum: sha1:51ad59e98dd14856e4cb38002ca410f0ddd6775e
+  src/Openapi/Utils/AnyDeserializer.cs:
+    last_write_checksum: sha1:65717f8f659ea6c0d4a37630cf9b3c98e8bfce9e
+  src/Openapi/Utils/BigIntStrConverter.cs:
+    last_write_checksum: sha1:1c1ee118a10c6fb93b037aeaf092fd808eacc907
+  src/Openapi/Utils/Constants.cs:
+    last_write_checksum: sha1:b4c503f5762c575c1f77d80179507321164cc8ab
+  src/Openapi/Utils/DecimalStrConverter.cs:
+    last_write_checksum: sha1:b37d89068c6c4d74fa6c80c0ee3208aa03c4eb87
+  src/Openapi/Utils/EnumConverter.cs:
+    last_write_checksum: sha1:523c8e9418e0b207532f1f7cb7a2a49ff95c43a3
+  src/Openapi/Utils/FlexibleObjectDeserializer.cs:
+    last_write_checksum: sha1:7aff4fe6fa60661f24df1a1801509f6061ed530b
+  src/Openapi/Utils/HeaderSerializer.cs:
+    last_write_checksum: sha1:a387a13ee09bd8b1c03692c70a4f744238d5e636
+  src/Openapi/Utils/IsoDateTimeSerializer.cs:
+    last_write_checksum: sha1:377a73986bae1142d6eae05e98facc18798ddaed
+  src/Openapi/Utils/OpenEnumConverter.cs:
+    last_write_checksum: sha1:b04cbf7331868bb952e70c331f6575bec88136c2
+  src/Openapi/Utils/RequestBodySerializer.cs:
+    last_write_checksum: sha1:8b09f049cf7edde9252c94f183f2ea78a59de3c3
+  src/Openapi/Utils/ResponseBodyDeserializer.cs:
+    last_write_checksum: sha1:6ec857c577cf07dd2ea7bdb0b1de4f80da820366
+  src/Openapi/Utils/Retries/BackoffStrategy.cs:
+    last_write_checksum: sha1:b0ec33a121dbadaf86206c9a2df9387ab52acec3
+  src/Openapi/Utils/Retries/Retries.cs:
+    last_write_checksum: sha1:207cb1eb4e2cdd7a1e15f37932a7433d09f1cfa9
+  src/Openapi/Utils/Retries/RetryConfig.cs:
+    last_write_checksum: sha1:a3f4985996524fb4cc7e60cc4a043cfc700167d4
+  src/Openapi/Utils/SDKHttpClient.cs:
+    last_write_checksum: sha1:34f1d523a28da93092c8dc528c5ba1e730b09d5b
+  src/Openapi/Utils/SecurityMetadata.cs:
+    last_write_checksum: sha1:6cc1761271d81df7dfb2437c3791a4e6e5e0295e
+  src/Openapi/Utils/SpeakeasyMetadata.cs:
+    last_write_checksum: sha1:a72b9bf63f959a3a966d1a139f9611af082a6e14
+  src/Openapi/Utils/URLBuilder.cs:
+    last_write_checksum: sha1:3449fd36af69aebbe2e400843029d38bbd5fdabe
+  src/Openapi/Utils/Utilities.cs:
+    last_write_checksum: sha1:ae1c61c030f00b73841fe4adba82b1a2c8f98c85
+examples:
+  listPets:
+    speakeasy-default-list-pets:
+      responses:
+        "200":
+          application/json: [{"id": 230960, "name": "<value>"}]
+examplesVersion: 1.0.2
