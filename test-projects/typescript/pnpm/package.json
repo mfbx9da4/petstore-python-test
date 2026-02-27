@@ -1,0 +1,7 @@
+{
+  "name": "test-pnpm",
+  "version": "1.0.0",
+  "dependencies": {
+    "openapi": "github:mfbx9da4/petstore-python-test#path:/dist/typescript"
+  }
+}

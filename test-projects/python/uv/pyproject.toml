@@ -1,0 +1,12 @@
+[project]
+name = "test-uv-install"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openapi",
+]
+
+[tool.uv.sources]
+openapi = { git = "https://github.com/mfbx9da4/petstore-python-test.git", subdirectory = "dist/python" }

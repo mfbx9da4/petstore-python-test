@@ -3,8 +3,8 @@ id: 6369c9b0-5042-491c-9d25-0448671b6d08
 management:
   docChecksum: db1c85621774e0520d6507c71789eef0
   docVersion: 1.0.0
-  speakeasyVersion: 0.0.1
-  generationVersion: 2.845.1
+  speakeasyVersion: internal
+  generationVersion: internal
   releaseVersion: 0.0.5
   configChecksum: 9f9eabd13fa205b29d19154767530daf
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
@@ -85,7 +85,7 @@ trackedFiles:
     pristine_git_object: 39b1072cdb96920175cc018a72c97a4057c6aa60
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:185b8b3ee86952a6186d756fcb4ca5e5c6d56b67
+    last_write_checksum: sha1:87082317a6401ae8add0cb2a5cad9abfa6fed993
     pristine_git_object: ad26968bd1df8717dff74526ef0e8a2aa414547a
   src/core.ts:
     id: f431fdbcd144
@@ -117,7 +117,7 @@ trackedFiles:
     pristine_git_object: 44be0eae8246521b230e8e711a88eff738fc015d
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:48ba78fb9e29b0ce27179274bf6699e393537e78
+    last_write_checksum: sha1:6619a32f4ea132c8ab70e4397fe0257a51fadf74
     pristine_git_object: cdd041b11c73e27147c2da0daee85d955f156e4b
   src/lib/dlv.ts:
     id: b1988214835a

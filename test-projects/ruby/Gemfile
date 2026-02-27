@@ -1,0 +1,2 @@
+source "https://rubygems.org"
+gem "openapi", git: "https://github.com/mfbx9da4/petstore-python-test", glob: "dist/ruby/*.gemspec"
