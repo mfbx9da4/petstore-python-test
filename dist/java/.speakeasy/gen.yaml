@@ -33,7 +33,7 @@ generation:
   repoSubDirectory: dist/java
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
 java:
-  version: 0.0.3
+  version: 0.0.4
   additionalDependencies: []
   additionalPlugins: []
   artifactID: openapi

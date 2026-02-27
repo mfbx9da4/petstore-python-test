@@ -33,7 +33,7 @@ generation:
   repoSubDirectory: dist/typescript
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
 typescript:
-  version: 0.0.3
+  version: 0.0.5
   acceptHeaderEnum: false
   additionalDependencies:
     dependencies: {}

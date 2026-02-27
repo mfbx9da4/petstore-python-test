@@ -1,6 +1,6 @@
 {
   "name": "openapi",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "author": "Speakeasy",
   "type": "module",
   "tshy": {
@@ -28,7 +28,9 @@
     "build": "tshy",
     "prepublishOnly": "npm run build"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    
+  },
   "devDependencies": {
     "@eslint/js": "^9.26.0",
     "eslint": "^9.26.0",
@@ -39,77 +41,5 @@
   },
   "dependencies": {
     "zod": "^3.25.65 || ^4.0.0"
-  },
-  "exports": {
-    ".": {
-      "import": {
-        "openapi/source": "./src/index.ts",
-        "types": "./dist/esm/index.d.ts",
-        "default": "./dist/esm/index.js"
-      },
-      "require": {
-        "types": "./dist/commonjs/index.d.ts",
-        "default": "./dist/commonjs/index.js"
-      }
-    },
-    "./package.json": "./package.json",
-    "./types": {
-      "import": {
-        "openapi/source": "./src/types/index.ts",
-        "types": "./dist/esm/types/index.d.ts",
-        "default": "./dist/esm/types/index.js"
-      },
-      "require": {
-        "types": "./dist/commonjs/types/index.d.ts",
-        "default": "./dist/commonjs/types/index.js"
-      }
-    },
-    "./models/errors": {
-      "import": {
-        "openapi/source": "./src/models/errors/index.ts",
-        "types": "./dist/esm/models/errors/index.d.ts",
-        "default": "./dist/esm/models/errors/index.js"
-      },
-      "require": {
-        "types": "./dist/commonjs/models/errors/index.d.ts",
-        "default": "./dist/commonjs/models/errors/index.js"
-      }
-    },
-    "./models": {
-      "import": {
-        "openapi/source": "./src/models/index.ts",
-        "types": "./dist/esm/models/index.d.ts",
-        "default": "./dist/esm/models/index.js"
-      },
-      "require": {
-        "types": "./dist/commonjs/models/index.d.ts",
-        "default": "./dist/commonjs/models/index.js"
-      }
-    },
-    "./*.js": {
-      "import": {
-        "openapi/source": "./src/*.ts",
-        "types": "./dist/esm/*.d.ts",
-        "default": "./dist/esm/*.js"
-      },
-      "require": {
-        "types": "./dist/commonjs/*.d.ts",
-        "default": "./dist/commonjs/*.js"
-      }
-    },
-    "./*": {
-      "import": {
-        "openapi/source": "./src/*.ts",
-        "types": "./dist/esm/*.d.ts",
-        "default": "./dist/esm/*.js"
-      },
-      "require": {
-        "types": "./dist/commonjs/*.d.ts",
-        "default": "./dist/commonjs/*.js"
-      }
-    }
-  },
-  "main": "./dist/commonjs/index.js",
-  "types": "./dist/commonjs/index.d.ts",
-  "module": "./dist/esm/index.js"
+  }
 }

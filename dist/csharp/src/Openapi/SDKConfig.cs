@@ -43,7 +43,7 @@ namespace Openapi
             Client = client ?? new SDKHttpClient();
             ServerUrl = "";
             ServerIndex = 0;
-            UserAgent = "speakeasy-sdk/csharp 0.0.3 2.845.1 1.0.0 Openapi";
+            UserAgent = "speakeasy-sdk/csharp 0.0.5 2.845.1 1.0.0 Openapi";
             Hooks = new SDKHooks();
             RetryConfig = null;
         }

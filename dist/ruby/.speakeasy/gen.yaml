@@ -33,7 +33,7 @@ generation:
   repoSubDirectory: dist/ruby
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
 ruby:
-  version: 0.0.3
+  version: 0.0.5
   additionalDependencies:
     development: {}
     runtime: {}

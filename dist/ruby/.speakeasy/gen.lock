@@ -5,11 +5,15 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 0.0.1
   generationVersion: 2.845.1
-  releaseVersion: 0.0.3
-  configChecksum: f847939d5bb9a6f684bc7d0f05183566
+  releaseVersion: 0.0.5
+  configChecksum: 27291afd16ed752e8ef2180734c08d75
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
   repoSubDirectory: dist/ruby
   installationURL: https://github.com/mfbx9da4/petstore-python-test -d dist/ruby
+persistentEdits:
+  generation_id: 15c462f6-6303-454e-84ef-d09b611a3eb2
+  pristine_commit_hash: cbe418256a3d4e55a5c078bb3dc8b5bf8148327a
+  pristine_tree_hash: f3116d26bb070b38631ac1298e5f1449954ba801
 features:
   ruby:
     core: 3.11.19
@@ -17,97 +21,189 @@ features:
     responseFormat: 0.1.0
 trackedFiles:
   .gitattributes:
+    id: 24139dae6567
     last_write_checksum: sha1:ddc1beb0214aecada04e60ef2e038729bd8d20e6
+    pristine_git_object: da4313a774bc2ec89b54ff6c33e31a8043adffeb
   .rubocop-strict.yml:
+    id: 914dcb269f15
     last_write_checksum: sha1:452cf23c1aac793c4f54d66fced59fdacab69142
+    pristine_git_object: bd18b8d63cc58ee55b95e042c17a479484b8e2c8
   .rubocop.yml:
+    id: 057477721d04
     last_write_checksum: sha1:43650c745c2254f02a2966922cb744e87115505b
+    pristine_git_object: 70da2a9210c4fb6bd04d6b25a88772c77a2b9365
   Gemfile:
+    id: de3150c01c3a
     last_write_checksum: sha1:8c1b6fa9505f61abd0fb6741f8094e9655a55495
+    pristine_git_object: b0ea40558f3ca80dcf7d30b159d34a1e5ab33440
   Gemfile.lock:
-    last_write_checksum: sha1:d3ff681d59f39fb482c59bcc03069c806eb862ee
+    id: 21fb5836b499
+    last_write_checksum: sha1:61532570306c85535f976e5d1b3891c09c7da107
+    pristine_git_object: bbdd202c967db496693f81177b16316fb0493e4b
   Rakefile:
+    id: 44b7fa1ba503
     last_write_checksum: sha1:c572639efdae8c7b24141ee5c02d8f009e101ed8
+    pristine_git_object: 5feb18be8b2748edf6dcf7b3ab8b90a0068f4e44
   USAGE.md:
+    id: 3aed33ce6e6f
     last_write_checksum: sha1:a20769adf52c9ff920d54a6bb102b8cc6060f2d6
+    pristine_git_object: 1d7dbb7f420360f06bdeca3d2ce09bcfc2558cf1
   docs/models/components/pet.md:
+    id: 7b6a7d88d503
     last_write_checksum: sha1:31246aea20f0ac2200a9a9d70bd926ebed11d7b5
+    pristine_git_object: a2a7a2c183b59e7ffb4d66b2c28f33b2f67d6da9
   docs/models/operations/listpetsresponse.md:
+    id: 16e9d6c20958
     last_write_checksum: sha1:e01776e130298c7f7901280d7413b0d8680dcc02
+    pristine_git_object: bf867f67098b00ea6bca63584d13ae9de0719731
   docs/sdks/sdk/README.md:
+    id: 623e0731a2f1
     last_write_checksum: sha1:652f37241384a807733a2eb6dc0df0afcbd6edff
+    pristine_git_object: 2eaaca9bb8b3b292d56bde18c957e38769faa7d5
   lib/crystalline.rb:
+    id: eca767cf937a
     last_write_checksum: sha1:b6ec0a2833f58ba9a6f07c9637fdca05e59006d3
+    pristine_git_object: fac143e59e3b6922c4f25b50d2d6be3161a5c993
   lib/crystalline/enum.rbi:
+    id: 5b76f3f5d78d
     last_write_checksum: sha1:548b19d96bcf832792c1e54f0065c293934a9ce5
+    pristine_git_object: 1d178b5834695e5a5bf2331c9efeda49d709c938
   lib/crystalline/metadata_fields.rb:
+    id: b632003fb3ad
     last_write_checksum: sha1:fd3fb667a441554f212e7eff01bcdb608bdd3f44
+    pristine_git_object: d12d9cc8009be91ee682c26ffa16e42b947c710d
   lib/crystalline/module.rb:
+    id: f20714527078
     last_write_checksum: sha1:982a74d52424b54de1760728a85e4c3be15cd875
+    pristine_git_object: 27e44456efc9a35795d1c59a967fc9918d76da20
   lib/crystalline/types.rb:
+    id: 99bd085a257e
     last_write_checksum: sha1:5771bd3d9e0471a77184079a7455aec60d2462b2
+    pristine_git_object: 589726f24dc4ff9fab0dd97d09c1737ad3cef6fb
   lib/crystalline/utils.rb:
+    id: 16176de8524e
     last_write_checksum: sha1:b32469851da6f9f729e484ade6a23b38639a652a
+    pristine_git_object: 2ed83f4352774e4d02e73402216b71cde5f86639
   lib/open_api_sdk/models/callbacks.rb:
+    id: 5e2f296f2e88
     last_write_checksum: sha1:82a2ea3e0fff97b48e38170b326189e9ca8a676e
+    pristine_git_object: 0f2669a4d2998f289a746f83bfc4d75e184473a4
   lib/open_api_sdk/models/components.rb:
+    id: 01daa791c64a
     last_write_checksum: sha1:85240cc9cd8321ed94d96a6f6ee9d158b2bc0347
+    pristine_git_object: 0f2b1ab73d422b64ecf056553de268209261ee62
   lib/open_api_sdk/models/components/pet.rb:
+    id: "593725495102"
     last_write_checksum: sha1:32bc4f52aa6db2264fa0fe4baabd3bc6976456a4
+    pristine_git_object: e00fb4d44075d565e813151d7e41d25992846822
   lib/open_api_sdk/models/components/pet.rbi:
+    id: 862fbecb1593
     last_write_checksum: sha1:2dffd4e86e95916b90a558bbc28bef0f57bf063b
+    pristine_git_object: ecb7e32b85d696cb9383497631b8f7a29150f192
   lib/open_api_sdk/models/errors.rb:
+    id: 16fed3446811
     last_write_checksum: sha1:86f3db45835e685717a21dab488ff91544915f7b
+    pristine_git_object: 97b37c354c5a6f957095a4e155d18a7277b8f72f
   lib/open_api_sdk/models/errors/apierror.rb:
+    id: 49820c60a387
     last_write_checksum: sha1:3ed66771d2d1a972dd5208e5efc0092f752361b5
+    pristine_git_object: 7175235a2a07a934d4bca4a3528d92f0833d9f0d
   lib/open_api_sdk/models/errors/apierror.rbi:
+    id: 6da0afabf765
     last_write_checksum: sha1:4501f73f1484c2a95487a62013038de67f120528
+    pristine_git_object: 17adebf5f7a2b8fcb387cdfcb9a6f83fd93aa85f
   lib/open_api_sdk/models/operations.rb:
+    id: 599aa065aa0a
     last_write_checksum: sha1:46aa6088ccca916eef666b30ae4bfbd374669a0a
+    pristine_git_object: 960bee8b035a11e882df58c7471e81705cde9d89
   lib/open_api_sdk/models/operations/listpets_response.rb:
+    id: 0064d7ebe123
     last_write_checksum: sha1:97b26029bced798d1c965788e439a66b0162d764
+    pristine_git_object: a1657e15c6af90c0f9fa0809ea2178ac78f98241
   lib/open_api_sdk/models/operations/listpets_response.rbi:
+    id: ec42ba013fbb
     last_write_checksum: sha1:cd2d995c1bd58aadeeeacd702de0fdd6fe00bb61
+    pristine_git_object: 525fcb5357f04bb012342652b676689bf9ce2cbe
   lib/open_api_sdk/sdk.rb:
+    id: 1843d578055f
     last_write_checksum: sha1:37e99dfe6bdca508fd3be939c489e0e17092dfb3
+    pristine_git_object: 7d18564d287bcee1ff6e5eecfcf319c99d43306b
   lib/open_api_sdk/sdk_hooks/hooks.rb:
+    id: 2dd8d61efac3
     last_write_checksum: sha1:1c53b209babd24cef5470310581a00ac96cf52fe
+    pristine_git_object: dd3a524e55bb0e58062cc159cc326dbacd9e06de
   lib/open_api_sdk/sdk_hooks/types.rb:
+    id: 0ed262c2c5c6
     last_write_checksum: sha1:319d7a80741d2d1fe8e09db18d0cebaef5f50b4b
+    pristine_git_object: a157c7535fb2f18c27288f3f7f0d0286ee5787d5
   lib/open_api_sdk/sdkconfiguration.rb:
-    last_write_checksum: sha1:9e8797c3d80ebf4a24cdceef3463b509c6ae2cc8
+    id: f4510466a9d9
+    last_write_checksum: sha1:c8b6cbb1707332255ccf7b3a6cd3909a9efbe2bd
+    pristine_git_object: 84f7cc6a87b9278cb736c4595da941505e4d9083
   lib/open_api_sdk/sdkconfiguration.rbi:
+    id: c1e574df15f1
     last_write_checksum: sha1:b581c83e36165fe3b40caf5b56e09308208466cc
+    pristine_git_object: e0e846da024f0bcdcac6774d7eb1f8031448ed6e
   lib/open_api_sdk/utils/forms.rb:
+    id: 09bb63e2af65
     last_write_checksum: sha1:db7c90f11b42296018de3f599ed6934a7c3a9b1a
+    pristine_git_object: b828219f5d4182d1d01eda655b060aef8dbf5e33
   lib/open_api_sdk/utils/headers.rb:
+    id: eec2c7dbc832
     last_write_checksum: sha1:8b4de2f0046843ad0aef7d0e7ee6567c7539d427
+    pristine_git_object: b55b54122cb3fed75241f6241666e1db0666a10d
   lib/open_api_sdk/utils/query_params.rb:
+    id: 9a9aff802184
     last_write_checksum: sha1:239cc17c4ec751dbf327108600cac54a932d317d
+    pristine_git_object: 3a8f1b0e4f365cb5bb462ed7898dda1bb1fac8b3
   lib/open_api_sdk/utils/request_bodies.rb:
+    id: e2e13570b6ff
     last_write_checksum: sha1:17b3ca5a6b3ed62a13f30c3ecd2590a133f6b49d
+    pristine_git_object: 3bfb23e12cc8909bd7405d3126ac99a02fbca7fe
   lib/open_api_sdk/utils/retries.rb:
+    id: 11dffe3acb52
     last_write_checksum: sha1:b302ab3a24ebe7bdb812ebd443a37cf2c00f79ad
+    pristine_git_object: 4659f1bb9d20b6d3d2cce9c29f3e33d3e1046413
   lib/open_api_sdk/utils/security.rb:
+    id: b20187e92c48
     last_write_checksum: sha1:36fb941f3faedd211bb023804a33ffbc903884e3
+    pristine_git_object: d1b4f1662717f93a1f57c9642a3afa95b01997a7
   lib/open_api_sdk/utils/url.rb:
+    id: b079c10b70ef
     last_write_checksum: sha1:3bfd065a74d847940ece3f408a4eb1148eec0871
+    pristine_git_object: 19b8215507d1ed2c20df3607103b25038309ee4c
   lib/open_api_sdk/utils/utils.rb:
+    id: 6492e7d3950f
     last_write_checksum: sha1:5bcc8f292dc707f522c3f0733536297737f92c33
+    pristine_git_object: 49e6092d209d6200d7f9215ad9f39822f5c6bd06
   lib/openapi.rb:
+    id: eaac38dfb2f1
     last_write_checksum: sha1:7969c3cb6d4d1197251b68cc489fb39dbd3ea1af
+    pristine_git_object: 6147f5fee7c59a1a3ed9ac9453e87a8fa452e0dd
   openapi.gemspec:
-    last_write_checksum: sha1:b9e0aca40a6ed59aefce2422ed9cbc5a03a1b2fc
+    id: 96fba08d6f1d
+    last_write_checksum: sha1:265c129c2c1f19cd0de86376ae1b95e2ef4bca66
+    pristine_git_object: b7bb5d742ed33ac20d37f77f0dcebfbc58fe8dc5
   sorbet/config:
+    id: 59392da43f94
     last_write_checksum: sha1:d02b32628dad70edc5929a9b9801d5e2dca15d40
+    pristine_git_object: cd566e2b8bfbfdb0335cb0ade65d5604cd915cf2
   sorbet/rbi/annotations/.gitattributes:
+    id: 01b693592708
     last_write_checksum: sha1:c683580f06441d46622a00a7aac20eeefdae4087
+    pristine_git_object: d2eacd2c61ce2c7d4e53adffb8288d9dcb88f466
   sorbet/rbi/gems/.gitattributes:
+    id: 6426dd47cecf
     last_write_checksum: sha1:737a5b4c7736cfd651133334bf4cdfabbe78ac69
+    pristine_git_object: d9bb82a4de2cf0d6b976e3b9c97b8f461767f53e
   sorbet/tapioca/config.yml:
+    id: 11d0afd0d1b3
     last_write_checksum: sha1:0b9c1ef96625b48230f1e888e468628d36d9d287
+    pristine_git_object: 95ee0ac9d239e86cdd0d5e200c10c22e9eec1df3
   sorbet/tapioca/require.rb:
+    id: d128056de4ad
     last_write_checksum: sha1:29b5fbd716704c2996f36f62fb32515705cfe56a
+    pristine_git_object: fd79b01b9f6c3054247d35f984063b0d70a76bd6
 examples:
   listPets:
     speakeasy-default-list-pets:

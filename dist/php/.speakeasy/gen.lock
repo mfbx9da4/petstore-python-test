@@ -5,11 +5,15 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 0.0.1
   generationVersion: 2.845.1
-  releaseVersion: 0.0.3
-  configChecksum: 6938f7b020f75d740e3c2a01cc8c30d4
+  releaseVersion: 0.0.5
+  configChecksum: f593b02151d6dabe0b482753d7392920
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
   repoSubDirectory: dist/php
   installationURL: https://github.com/mfbx9da4/petstore-python-test.git
+persistentEdits:
+  generation_id: ee627889-c3d1-42b0-af96-47e24f61eee4
+  pristine_commit_hash: 9dbd258a4321742e6a3b542edef219b6203c3e9d
+  pristine_tree_hash: f9a5b847dbe15322b7298e8a27f6af840de9684a
 features:
   php:
     core: 3.9.14
@@ -17,137 +21,269 @@ features:
     responseFormat: 0.1.0
 trackedFiles:
   .gitattributes:
+    id: 24139dae6567
     last_write_checksum: sha1:d1d000f6673e5838a636562dceffa2d9dec820df
+    pristine_git_object: e672f6ec6e8fb43d8886a12d531eb19ee8aaf881
   USAGE.md:
+    id: 3aed33ce6e6f
     last_write_checksum: sha1:1689f724d2fe5985288cee3c332589e13ed1f9d3
+    pristine_git_object: a3d472bdff4dae23670b57d115f292f5bacd00aa
   composer.json:
+    id: 3957b91a0d84
     last_write_checksum: sha1:023829356e113eba9277f9412830b4e5c8d2610a
+    pristine_git_object: bddcd7a6e50036929fc3ef93c277858397871813
   docs/Models/Components/Pet.md:
+    id: a4894f8745cd
     last_write_checksum: sha1:df6bcd81445bf387f0471ea1d3fe985fd9b91fb1
+    pristine_git_object: 6812710c6508855fba906b046135a5e1dea85156
   docs/Models/Operations/ListPetsResponse.md:
+    id: c0eeb982dcde
     last_write_checksum: sha1:910954a56623cc5a79f4de356ecc846ebb84b77c
+    pristine_git_object: c8d5eae6631341d6231c92dce96b892792eca9bf
   docs/sdks/sdk/README.md:
+    id: 623e0731a2f1
     last_write_checksum: sha1:460ecf58f94344f1df39945cb4b5022400c91584
+    pristine_git_object: 8e1189d998efbd38766f5fbdf873564f6580c297
   phpstan.neon:
+    id: 9503203c22f7
     last_write_checksum: sha1:36c7aff86142888cf147c7dceed4bbc02049e8fd
+    pristine_git_object: f623fd192fd882958041cfa10f202c5303cd9ea8
   phpunit.xml:
+    id: 357499abc6fd
     last_write_checksum: sha1:1a2f73f76c0929634baf4e48f5718b9a2449be79
+    pristine_git_object: d3f71bfa07200801d6b6a0b7a94576259d12ab31
   pint.json:
+    id: 62bb227d0546
     last_write_checksum: sha1:fc5919a12e8478ad039f103190710e526e680d73
+    pristine_git_object: e34fd80ce946c6edd9cd68e379392296c0fe796c
   rector.php:
+    id: 6615ad7e99dd
     last_write_checksum: sha1:2c0586f29783d1cdf80ea09f3ed0f4693329f3e6
+    pristine_git_object: 40eb9bfbea10383ae16ce195da9113bb2abfc586
   src/Hooks/AfterErrorContext.php:
+    id: d3767eb93096
     last_write_checksum: sha1:140eb30af98ae7accd55f1f52ee58ca41477edc4
+    pristine_git_object: 45196b04164be6abfe4761cff1afd8032c2f4bdf
   src/Hooks/AfterErrorHook.php:
+    id: b6f229875029
     last_write_checksum: sha1:0331d2e581f0debbd2c91b2929f10ee04023f371
+    pristine_git_object: 9f16b1c3930c286c1a7d2996d783c6ebf45b099b
   src/Hooks/AfterSuccessContext.php:
+    id: 1297ed8410e9
     last_write_checksum: sha1:c3f111f6c2da167c76502565a767e6fd5559d4ae
+    pristine_git_object: b6d6509049963f9f4054e8173669bd79bb3df9a6
   src/Hooks/AfterSuccessHook.php:
+    id: 3f9dd7b31c3a
     last_write_checksum: sha1:ff2ae2236989257dfd876a2e12b2c175f1487227
+    pristine_git_object: 95186b1c3d8f426b5f11c062f9785733ab325c1a
   src/Hooks/BeforeRequestContext.php:
+    id: 62d4f2980d2d
     last_write_checksum: sha1:d2726a59bb3babb0856052f66d19e4f4fe10b00a
+    pristine_git_object: bf754f245a4a60838c0a8fb64a45a3ac45d6863d
   src/Hooks/BeforeRequestHook.php:
+    id: 55e17f24cc34
     last_write_checksum: sha1:ccafe661c93f811523ba773bd770f3a9dc451a41
+    pristine_git_object: c8d0c0f81323be5e8c8f9059fa405dc6db9c5c44
   src/Hooks/Credentials.php:
+    id: b37a16c555af
     last_write_checksum: sha1:7b4f981accf5d3270b3cff7b1caeb3eb4dabefcf
+    pristine_git_object: 069f5010b98ba508dcdaab1e3123df8879afb569
   src/Hooks/ErrorResponseContext.php:
+    id: 2ba4c41dd54c
     last_write_checksum: sha1:6d1d8ab6999a48555c168a041793393182243146
+    pristine_git_object: 7d029af613a236db5bc87b7cbc11b196ccfae833
   src/Hooks/FailEarlyException.php:
+    id: 0ae1bdaec63f
     last_write_checksum: sha1:b48a144d47988c4cd1fef656a9755d67b33e2a42
+    pristine_git_object: dd03cc18d551924c97afe759b7903a1d2ea22de8
   src/Hooks/HookContext.php:
+    id: 279c02d439a6
     last_write_checksum: sha1:f2aac205073a57a68f1beae03bd190e6eb4ec394
+    pristine_git_object: 0ffa2dc48b5251e2cb46aee931413b631f1f95b7
   src/Hooks/Hooks.php:
+    id: 6cf174b736b4
     last_write_checksum: sha1:81e5f1faf5503463f65e00781be2fec687e81822
+    pristine_git_object: 01a21c002506c8396f1d76b4534f09b9cd06f1e5
   src/Hooks/SDKHooks.php:
+    id: d31b27b84f0b
     last_write_checksum: sha1:415eeea3f84f59bdecb3f0674f34dee4c8f2de82
+    pristine_git_object: bf7f23d0e2b5b3fe19a2dcf6d8d084dac765223d
   src/Hooks/SDKInitHook.php:
+    id: 16729a806274
     last_write_checksum: sha1:60f7fe6d8aed94612b35e5656f4b5e7f20fd149f
+    pristine_git_object: da41c6135cef6402ea7553f96b48f875c29cf76c
   src/Hooks/Session.php:
+    id: dc21f349b594
     last_write_checksum: sha1:bea334a4bb70e98aa0192de171c5d1fc01430cb7
+    pristine_git_object: fef5cd16e4cad499d8941351bd1ae9e85c1ed17a
   src/Hooks/TokenResponse.php:
+    id: aad5e2b1d06f
     last_write_checksum: sha1:f20a859f61b771558f5ac68ca9154a487517a4ab
+    pristine_git_object: c35b373a11d9d220948eb57a264b3992cda608aa
   src/Models/Components/Pet.php:
+    id: 6a7ae0e0214d
     last_write_checksum: sha1:4aaf7fa272f954ccf58726f7bc9af0372345c689
+    pristine_git_object: afa0a4a39a46051adba129fd0198b6a64f819b56
   src/Models/Errors/APIException.php:
+    id: 9ce9f9c7a8d6
     last_write_checksum: sha1:32ed3223b296ceb83e4d9f146729b4982d834737
+    pristine_git_object: 00ea914c950f4a79c0cb6bc1132563197c835011
   src/Models/Operations/ListPetsResponse.php:
+    id: 19e4006e5aa6
     last_write_checksum: sha1:af4d307444732b294fdb2805c49b344827d44c42
+    pristine_git_object: 83764eea3e921e3f3c81901ef330635d3540a93f
   src/SDK.php:
+    id: 7b5eb956165f
     last_write_checksum: sha1:0f6d446e512b07b1fb1e4a408599b1a90f42dba6
+    pristine_git_object: 50326b4fc3b16877a8f2997a6872b31154f3e86f
   src/SDKBuilder.php:
+    id: 3a8d6469b037
     last_write_checksum: sha1:839958c3864d26084423d4bf06236aff7a137839
+    pristine_git_object: 1483535810e6ddab4bd623eaefa83df90d04115e
   src/SDKConfiguration.php:
-    last_write_checksum: sha1:00189efc4776e5a9a2a271b18c5a555b222bdb22
+    id: 9d60ab0bec0b
+    last_write_checksum: sha1:d7d20dabc5808e236dc625dce9852cde99c2c94f
+    pristine_git_object: 5d365c0faef8d1ab0b905e03aac1bdca290b4007
   src/Utils/BigDecimalHandler.php:
+    id: cdcca3718e2e
     last_write_checksum: sha1:2276e207691b80f9f470500a35364956ee229d7d
+    pristine_git_object: 74b910be90fe7abd75377af767af8f5971d82ea9
   src/Utils/BigIntHandler.php:
+    id: 190c4d16fa85
     last_write_checksum: sha1:cf25a35beea122740a8186627f307fd09b28257b
+    pristine_git_object: 97e770e893be7839ace30ac5eb92d88a8a2870c5
   src/Utils/DateHandler.php:
+    id: 3223e13fd506
     last_write_checksum: sha1:270e65d0415feecf8f1394575dfe08ed43ace966
+    pristine_git_object: 6618c0a0e48ee5e4bddbd7cfae45b294c5993936
   src/Utils/DateTimeHandler.php:
+    id: 7ca531e0aebd
     last_write_checksum: sha1:49fbc27fe536fe976c54280817bec30a638be82c
+    pristine_git_object: ee7c30d8aed95a46a13ae894f5d338678d0cafa2
   src/Utils/DefaultRequest.php:
+    id: 6fe9607b243e
     last_write_checksum: sha1:e03f9fd6de894067e8b80684cba54d04ccd51c20
+    pristine_git_object: 811262c3ede4dd6c139af16102c7ee57fb4679d7
   src/Utils/DefaultResponse.php:
+    id: 0f196b8017df
     last_write_checksum: sha1:5ffcdf29a2622391ceb5b14fe53ee8961d944b61
+    pristine_git_object: c797e5bc4a7c00c015d3be41aadcfef93c0cb22a
   src/Utils/DefaultStream.php:
+    id: 14d2eedf020b
     last_write_checksum: sha1:54e40698d4e3e9611b761b1c2a5931e9470db79e
+    pristine_git_object: 9f55e6fec8eac1f39cdbfa463a119448d1108512
   src/Utils/DefaultUri.php:
+    id: 41b965402390
     last_write_checksum: sha1:432ca70c9a72ad2169a3e058d3e6c135a3841b2f
+    pristine_git_object: 4d7643c2527f2c99ee04401f86e694b1293bf2e4
   src/Utils/EnumHandler.php:
+    id: 02e7893b40fb
     last_write_checksum: sha1:e6ccc116fd995d3aa92b3487d33dbb7e5cafcc4f
+    pristine_git_object: 9cfc503bcdaa26ada43fc92a18ac4947384d445c
   src/Utils/FormMetadata.php:
+    id: a439bdb795e2
     last_write_checksum: sha1:88a51ef0c94473353e3f2f04a1d2709d8bc5f79d
+    pristine_git_object: aa40b1eae28683e7108e453df75d7e32439be4a1
   src/Utils/Headers.php:
+    id: 98710f1dd715
     last_write_checksum: sha1:939284bf67cb987ab84e504fa52b2a481f8568dd
+    pristine_git_object: ac55aa6c7070034f52590739022abc735fcbe2f6
   src/Utils/JSON.php:
+    id: fb267328a809
     last_write_checksum: sha1:699d18afb5666cc4ff9f098abdd4a9ae5d860bf9
+    pristine_git_object: 8f23e0680df3eebc94ffb4d0f867983578d8f0e9
   src/Utils/MixedJSONHandler.php:
+    id: ceb58b45ce9f
     last_write_checksum: sha1:54054fb4b0ef945280cc95d941856eabffb141b1
+    pristine_git_object: 5f4fd33f0b58e2df5f0db2467b0567954ba4b7e8
   src/Utils/MultipartMetadata.php:
+    id: 4b6a976cbd33
     last_write_checksum: sha1:6f5c9cc3bdeea3ca179708aebcb3c9073a027822
+    pristine_git_object: 36fdba472ec6f2e5346648cfb8a12ae0f719f114
   src/Utils/Options.php:
+    id: c675c18e8d43
     last_write_checksum: sha1:4a4e3779a278399959d44c74db6e6e035fdce216
+    pristine_git_object: d97d862ad7e46d0180471d6410ce6f51d18a2d0c
   src/Utils/ParamsMetadata.php:
+    id: 53200159d3ba
     last_write_checksum: sha1:ec070f930e190e920b3b56656bee4b87a4b3e5c4
+    pristine_git_object: 1555bc9a0778c3981a56fbbc384e729ff345fe38
   src/Utils/PathParameters.php:
+    id: bed72f45a7d0
     last_write_checksum: sha1:73e7ae0e7cbf721c0a58d6eed09e61c07235b990
+    pristine_git_object: 28221eb2101d07595a7b636b3b312426f4d6fe6e
   src/Utils/PhpDocTypeParser.php:
+    id: 2b60c7b364fb
     last_write_checksum: sha1:f33ac5d44031340ebaa2ab18ea96739c81a612da
+    pristine_git_object: db347d3d53174482ecbdce44b9117d27ac7a4a23
   src/Utils/QueryParameters.php:
+    id: 4cfeb0a96efd
     last_write_checksum: sha1:84d48bcb58ed424bb4c92f4974228619280fd894
+    pristine_git_object: b709b4f71bd434081c53451b3dd905a89d0d5a36
   src/Utils/RequestBodies.php:
+    id: 30dc93a697d3
     last_write_checksum: sha1:afaddf98cc24276060b95090facf63dc5ff870fb
+    pristine_git_object: 204cfa0cf00eb27fe321a9c3a35e9abb89cc36df
   src/Utils/RequestMetadata.php:
+    id: 63c8deb4cf4a
     last_write_checksum: sha1:6004f679e0f580e00dac2ba29a7f77baef1a798e
+    pristine_git_object: 481b4fddb991ecdd721cd0bd9356d8e571a4aa71
   src/Utils/Retry/PermanentError.php:
+    id: ced3cce6125c
     last_write_checksum: sha1:1ad672f8e39734f155faab2c9bfff750dabd7b02
+    pristine_git_object: 610e210251ada4a6f26cfa9252a253dfed86de6a
   src/Utils/Retry/RetryConfig.php:
+    id: 86ede313b205
     last_write_checksum: sha1:02dbff23ff4dd3070c26105b0b1552937d28b2d7
+    pristine_git_object: 6a4b54aa331efcfcf51077fcb3ba4f0ba0d33ebf
   src/Utils/Retry/RetryConfigBackoff.php:
+    id: 9492a6123b6f
     last_write_checksum: sha1:399f1d6a007a04f772454e1f83e2f0e39dbb7b07
+    pristine_git_object: acf8d28c3a162277d8ca869d98eb6f4385c3c0e5
   src/Utils/Retry/RetryConfigNone.php:
+    id: 97a086b67b34
     last_write_checksum: sha1:21a1b1c25cf56104f130665a95f8d037e9a11077
+    pristine_git_object: 683c261f66461488228a3632613b657da196cc1b
   src/Utils/Retry/RetryStrategy.php:
+    id: 50fcd2c78a30
     last_write_checksum: sha1:3e4a3f46efa2fc6cf07cfbe83929d33a092dca51
+    pristine_git_object: 13d18eaa46a51cc9674ffce17da034e92ad2d00e
   src/Utils/Retry/RetryUtils.php:
+    id: 28597380e832
     last_write_checksum: sha1:b2efe48b0e94e7afbd5a6d7a4e867a4a32bb58f2
+    pristine_git_object: b42817b414e587afeb0aae1cc86fb3a4aaa01030
   src/Utils/Retry/TemporaryError.php:
+    id: d58c3851b91f
     last_write_checksum: sha1:d7c5fea51b4417158d37228149dd517b26b4d60b
+    pristine_git_object: ff2553a2d3aadfd78307bbcfc58ffd1612902a09
   src/Utils/Security.php:
+    id: 564a31099977
     last_write_checksum: sha1:79b5940d147f17d72876bbe52134fac91cccb678
+    pristine_git_object: 0b2ec1f6cec449fcbe3d4ba071cb39dda348962d
   src/Utils/SecurityClient.php:
+    id: de11afa826f4
     last_write_checksum: sha1:27e5a86ad108bf7eb010f0e971fa3b35d5301815
+    pristine_git_object: db798c49394711113c9688035b94a0938e559139
   src/Utils/SecurityMetadata.php:
+    id: 55ec148715b3
     last_write_checksum: sha1:cec9716a20c7438a78de221de36ba1a4d5b199e6
+    pristine_git_object: 215aebc1f3565ecc10e3f6ebc51ad97970622490
   src/Utils/ServerDetails.php:
+    id: 71ed88cf4f04
     last_write_checksum: sha1:8c0e79d2e08129ebed1d09c71943f0ad3773351b
+    pristine_git_object: 201ae86c2c4e3ded1c92cdb118c3ef73d22bf486
   src/Utils/SpeakeasyMetadata.php:
+    id: a33363de3a1a
     last_write_checksum: sha1:2589987f8d12f35ddd430503c0803806c1e639e0
+    pristine_git_object: fa1139a2fb96fa615af5290eeb8d187f2fad3dc4
   src/Utils/UnionHandler.php:
+    id: 5a76a946fe85
     last_write_checksum: sha1:079348d2a818561a6471d1565e9f9d2eba9c1db7
+    pristine_git_object: fda7d10d6a2287df58cc7ac27fd60d1a61725d12
   src/Utils/Utils.php:
+    id: c902f57e2422
     last_write_checksum: sha1:516ea6f2b1f8148964c1f920631e31e2e28a5f59
+    pristine_git_object: 41cfc63a2c731b91a3f9031736e61de4dc98a3c1
 examples:
   listPets:
     speakeasy-default-list-pets:

@@ -48,13 +48,13 @@ The SDK can be installed with either [npm](https://www.npmjs.com/), [pnpm](https
 ### NPM
 
 ```bash
-npm add https://github.com/mfbx9da4/petstore-python-test
+npm add git+https://github.com/mfbx9da4/petstore-python-test.git?subdir=dist/typescript
 ```
 
 ### PNPM
 
 ```bash
-pnpm add https://github.com/mfbx9da4/petstore-python-test
+pnpm add https://github.com/mfbx9da4/petstore-python-test#path:dist/typescript
 ```
 
 ### Bun

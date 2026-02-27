@@ -5,11 +5,15 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 0.0.1
   generationVersion: 2.845.1
-  releaseVersion: 0.0.3
-  configChecksum: 21637279f9e031dbe4619a60d0c23158
+  releaseVersion: 0.0.5
+  configChecksum: 50f3f5bcee9e41a1f1618f3f12f6b196
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
   repoSubDirectory: dist/csharp
   installationURL: https://github.com/mfbx9da4/petstore-python-test
+persistentEdits:
+  generation_id: 050dae78-bcf4-487c-baf0-f755b4b43e72
+  pristine_commit_hash: 91b9ace3c6a7abe5b4ad356a6e6de925e3e3670b
+  pristine_tree_hash: 956c86d19780a420cc3692650fef69eccd87f76f
 features:
   csharp:
     additionalDependencies: 0.1.0
@@ -21,81 +25,157 @@ features:
     sdkHooks: 0.3.0
 trackedFiles:
   .gitattributes:
+    id: 24139dae6567
     last_write_checksum: sha1:6cf623aa5081ea7f1e32b99d74fac393718a29cf
+    pristine_git_object: c094dba670119a1a5414e11c713a4ea3218147cd
   Openapi.sln:
+    id: b30d42d6134f
     last_write_checksum: sha1:62f666a0506157aa06035deeb43101492a10c86f
+    pristine_git_object: e99c3b0855bd1f6bac818eb2a6945020601d2330
   USAGE.md:
+    id: 3aed33ce6e6f
     last_write_checksum: sha1:9211c8d2507bcfdb51c619e8f90d575f1d21beaa
+    pristine_git_object: 9e429e5093714a0063312458575e95e7e58db610
   docs/Models/Components/HTTPMetadata.md:
+    id: 05de2fd15279
     last_write_checksum: sha1:08fe4d295519e310847d7500b27fd60eb5124293
+    pristine_git_object: e01c47a3aad01cce33962b089a2a72da72c468df
   docs/Models/Components/Pet.md:
+    id: a4894f8745cd
     last_write_checksum: sha1:250d0ab520281f2a9794447eef5c8bcabb9485a1
+    pristine_git_object: 03f191346caa94d1424f19b7968770cde0f2d287
   docs/Models/Requests/ListPetsResponse.md:
+    id: c0b7c780dedb
     last_write_checksum: sha1:d4187801ff3d542832a8d9a8a1c1e49bff373f7d
+    pristine_git_object: 61e09e4965bed6f5d783c871471e0373c43a6cb3
   docs/sdks/sdk/README.md:
+    id: 623e0731a2f1
     last_write_checksum: sha1:27cbd011c561fc18a9d948031246490daea5ec75
+    pristine_git_object: c45fb8f7d49520bf396b2211f08fc7dfcec64a94
   global.json:
+    id: 908e72401bf4
     last_write_checksum: sha1:3161b880f51cd74e7d1dea069b541d8bf4736dc9
+    pristine_git_object: ef3195af86a7d6ef1e34296c380fd52d85b696fd
   src/Openapi/Hooks/HookTypes.cs:
+    id: 609b9d6b5883
     last_write_checksum: sha1:43332606eb21fc03aaf896a609fa26a8c847367c
+    pristine_git_object: 173318973cb74150dc76028da671090538352082
   src/Openapi/Hooks/SDKHooks.cs:
+    id: ce00c111bbc3
     last_write_checksum: sha1:1a7f32d4c840dbc522eabf9ee182d8bc07cac8ab
+    pristine_git_object: 143f90e5ea2528e5b60984a62db922aaedac4e41
   src/Openapi/Models/Components/HTTPMetadata.cs:
+    id: 33677d4292d9
     last_write_checksum: sha1:907a559c9d02ab6a24e8122c3adc3c89ad421615
+    pristine_git_object: 649375f63240e3c87a8493d3f72de6521e03dbec
   src/Openapi/Models/Components/Pet.cs:
+    id: 2f27ec82c159
     last_write_checksum: sha1:4419656c8c89f33e00c0212462442ce36aa3879f
+    pristine_git_object: 6b46fafa1754e0ddc9259c0d1a26244e63ab958d
   src/Openapi/Models/Errors/APIException.cs:
+    id: 6e86cdc644c9
     last_write_checksum: sha1:886d7cea903a67e73b7ed6addc0bad75ac06447d
+    pristine_git_object: 91f1af8bd5a251da2b8a29389b78bfed55275c50
   src/Openapi/Models/Errors/ResponseValidationException.cs:
+    id: af0fd472a791
     last_write_checksum: sha1:8821f1a466b3b1d8520d7886b114aeac4e930423
+    pristine_git_object: 69ef78d2b5f40fea9f662891e8107c8cfd5f0e6b
   src/Openapi/Models/Errors/SDKException.cs:
+    id: e323bb11814d
     last_write_checksum: sha1:94cacd4fa91bf2480e5bb2055ffc292ef104b6dc
+    pristine_git_object: a840e2ed0c60011934757de3bb54f1ed8b6f2275
   src/Openapi/Models/Requests/ListPetsResponse.cs:
+    id: 2ee7c4d3053b
     last_write_checksum: sha1:ea406168e6d19d9eb59363811cda1484623092f0
+    pristine_git_object: 06595bcd10d5b468d4e6a45b02a346ac0c11847f
   src/Openapi/Openapi.csproj:
-    last_write_checksum: sha1:ef2deadc91fe7fe7a3869ba120add15b579aec4e
+    id: 648f8e14bf16
+    last_write_checksum: sha1:83465323b38c8594f8963dd94615af412a5fe63c
+    pristine_git_object: 3ea38c0e13f59523b53c47a3ef0e467e5e5ded3c
   src/Openapi/SDK.cs:
+    id: d3d2089d0818
     last_write_checksum: sha1:b7e67613af8abe1a16e846ab92c8f005beaedf97
+    pristine_git_object: 715fd53d537bd08ec3efcbeee4ab631d2baaca5e
   src/Openapi/SDKConfig.cs:
-    last_write_checksum: sha1:51ad59e98dd14856e4cb38002ca410f0ddd6775e
+    id: b0d9a942edfb
+    last_write_checksum: sha1:cf1fe15c0e86f6d21cecfdfc2ba4c9cc18cf6885
+    pristine_git_object: 81c24f052fd81d634097ccdedd786dbb17a9f97f
   src/Openapi/Utils/AnyDeserializer.cs:
+    id: 5342fbba548c
     last_write_checksum: sha1:65717f8f659ea6c0d4a37630cf9b3c98e8bfce9e
+    pristine_git_object: b17917a7aab068ef020ecea35af5aaea2c14092d
   src/Openapi/Utils/BigIntStrConverter.cs:
+    id: f9fa2027b229
     last_write_checksum: sha1:1c1ee118a10c6fb93b037aeaf092fd808eacc907
+    pristine_git_object: 04cf469767f314c6ce7bd690b7649de97093c28f
   src/Openapi/Utils/Constants.cs:
-    last_write_checksum: sha1:b4c503f5762c575c1f77d80179507321164cc8ab
+    id: fcb6f13f52f4
+    last_write_checksum: sha1:b1f695ce287170e52f8e948e40082177403b8324
+    pristine_git_object: 1232d3e0f34b06d6cee35d8d175398cf25261daf
   src/Openapi/Utils/DecimalStrConverter.cs:
+    id: a5c5445d6d4a
     last_write_checksum: sha1:b37d89068c6c4d74fa6c80c0ee3208aa03c4eb87
+    pristine_git_object: 78b200ccb8fa1c7f458422c3209dbf3d2aa61a72
   src/Openapi/Utils/EnumConverter.cs:
+    id: d1297559413e
     last_write_checksum: sha1:523c8e9418e0b207532f1f7cb7a2a49ff95c43a3
+    pristine_git_object: a56300d4a3cc71961602e5feed6a0eecd067a7a8
   src/Openapi/Utils/FlexibleObjectDeserializer.cs:
+    id: 5ece2c3d407f
     last_write_checksum: sha1:7aff4fe6fa60661f24df1a1801509f6061ed530b
+    pristine_git_object: da9a1daaf4698d9427fca2a360bb0075d618d9ae
   src/Openapi/Utils/HeaderSerializer.cs:
+    id: f16b7a866189
     last_write_checksum: sha1:a387a13ee09bd8b1c03692c70a4f744238d5e636
+    pristine_git_object: ab40d5cab1e6b554a28a08d11fb244f302a6d177
   src/Openapi/Utils/IsoDateTimeSerializer.cs:
+    id: 223d80ba0901
     last_write_checksum: sha1:377a73986bae1142d6eae05e98facc18798ddaed
+    pristine_git_object: a40d3fe37846707517833092afe7236cbb01141c
   src/Openapi/Utils/OpenEnumConverter.cs:
+    id: 8c28e21dfcb9
     last_write_checksum: sha1:b04cbf7331868bb952e70c331f6575bec88136c2
+    pristine_git_object: 78dd40a44a7bfb9bb9dd0268ea27ea6ecc513f52
   src/Openapi/Utils/RequestBodySerializer.cs:
+    id: 37ded900f182
     last_write_checksum: sha1:8b09f049cf7edde9252c94f183f2ea78a59de3c3
+    pristine_git_object: 1bb0d5fe9050cc1bf71a2a8ad11d8ef43decbeea
   src/Openapi/Utils/ResponseBodyDeserializer.cs:
+    id: 9a0ccbe8c422
     last_write_checksum: sha1:6ec857c577cf07dd2ea7bdb0b1de4f80da820366
+    pristine_git_object: f18de22d7334b14fbcf9a42d4609bb34be7bf371
   src/Openapi/Utils/Retries/BackoffStrategy.cs:
+    id: 223f164a2418
     last_write_checksum: sha1:b0ec33a121dbadaf86206c9a2df9387ab52acec3
+    pristine_git_object: 192353a29e77bf078c80e7a0d1be328d78e733e3
   src/Openapi/Utils/Retries/Retries.cs:
+    id: 09795b14a0ed
     last_write_checksum: sha1:207cb1eb4e2cdd7a1e15f37932a7433d09f1cfa9
+    pristine_git_object: 1de192c7893a474a50a6c3db24d3c54659ed765e
   src/Openapi/Utils/Retries/RetryConfig.cs:
+    id: 2b2270a2ceaf
     last_write_checksum: sha1:a3f4985996524fb4cc7e60cc4a043cfc700167d4
+    pristine_git_object: 79cc25eb0728f3b8728051f7451112c6a40628f3
   src/Openapi/Utils/SDKHttpClient.cs:
+    id: b2f3cb48d1f4
     last_write_checksum: sha1:34f1d523a28da93092c8dc528c5ba1e730b09d5b
+    pristine_git_object: c4f2cee0910037e6afb0ff279b8b447850be5cf8
   src/Openapi/Utils/SecurityMetadata.cs:
+    id: cd775730756f
     last_write_checksum: sha1:6cc1761271d81df7dfb2437c3791a4e6e5e0295e
+    pristine_git_object: 5e956600158dc5add29e3e08c8335fae72c74be1
   src/Openapi/Utils/SpeakeasyMetadata.cs:
+    id: 71b4c0ef090b
     last_write_checksum: sha1:a72b9bf63f959a3a966d1a139f9611af082a6e14
+    pristine_git_object: 8b7b3a7c36705814c153aaee6bc1735c337c9e35
   src/Openapi/Utils/URLBuilder.cs:
+    id: f0304be0bc05
     last_write_checksum: sha1:3449fd36af69aebbe2e400843029d38bbd5fdabe
+    pristine_git_object: 0bf3caa6ba99aec759da88efa38bc7cf56546609
   src/Openapi/Utils/Utilities.cs:
+    id: 9da8a097ad9f
     last_write_checksum: sha1:ae1c61c030f00b73841fe4adba82b1a2c8f98c85
+    pristine_git_object: cc337e05f4dde5be1dbeb4c9fe3a24400a28658e
 examples:
   listPets:
     speakeasy-default-list-pets:

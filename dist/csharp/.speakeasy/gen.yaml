@@ -33,7 +33,7 @@ generation:
   repoSubDirectory: dist/csharp
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
 csharp:
-  version: 0.0.3
+  version: 0.0.5
   additionalDependencies: []
   author: Speakeasy
   baseErrorName: SDKException

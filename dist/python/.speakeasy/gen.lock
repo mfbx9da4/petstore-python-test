@@ -5,11 +5,15 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 0.0.1
   generationVersion: 2.845.1
-  releaseVersion: 0.0.10
-  configChecksum: 20f0242e10e38ee21e2ae772ec0f5b11
+  releaseVersion: 0.0.12
+  configChecksum: ed1c58ebdf4a5a40c8ca26b095a0dbff
   repoURL: https://github.com/mfbx9da4/petstore-python-test.git
   repoSubDirectory: dist/python
   installationURL: https://github.com/mfbx9da4/petstore-python-test.git#subdirectory=dist/python
+persistentEdits:
+  generation_id: 1f1953bc-2edf-4506-9e3e-3e566a58d468
+  pristine_commit_hash: 2645625a90c33df7296e331f0eff9c36fefca3cb
+  pristine_tree_hash: 4116f4ac331210fa855026a1c3fc25f750aec846
 features:
   python:
     additionalDependencies: 1.0.0
@@ -24,101 +28,197 @@ features:
     sdkHooks: 1.2.1
 trackedFiles:
   .gitattributes:
+    id: 24139dae6567
     last_write_checksum: sha1:53134de3ada576f37c22276901e1b5b6d85cd2da
+    pristine_git_object: 4d75d59008e4d8609876d263419a9dc56c8d6f3a
   .vscode/settings.json:
+    id: 89aa447020cd
     last_write_checksum: sha1:f84632c81029fcdda8c3b0c768d02b836fc80526
+    pristine_git_object: 8d79f0abb72526f1fb34a4c03e5bba612c6ba2ae
   USAGE.md:
+    id: 3aed33ce6e6f
     last_write_checksum: sha1:5d8ddac0ceb050c66e14f2ccbe7aa876d823f6af
+    pristine_git_object: 7c3cfc562c0062d75e2e72e3d766054f945bd3b6
   docs/models/pet.md:
+    id: e267a20ce961
     last_write_checksum: sha1:ada9fb9c9df90a6defedede556dfcbed30a36167
+    pristine_git_object: 82dd608c422b8ba31fe41277c29d0315a7b77baa
   docs/models/utils/retryconfig.md:
+    id: 4343ac43161c
     last_write_checksum: sha1:562c0f21e308ad10c27f85f75704c15592c6929d
+    pristine_git_object: 69dd549ec7f5f885101d08dd502e25748183aebf
   docs/sdks/sdk/README.md:
+    id: 623e0731a2f1
     last_write_checksum: sha1:c366c53849a9063897ff7728caef7349255942e3
+    pristine_git_object: 63f8199ee3105855d0dd8307cc865c3de9677ccf
   py.typed:
+    id: 258c3ed47ae4
     last_write_checksum: sha1:8efc425ffe830805ffcc0f3055871bdcdc542c60
+    pristine_git_object: 3e38f1a929f7d6b1d6de74604aa87e3d8f010544
   pylintrc:
+    id: 7ce8b9f946e6
     last_write_checksum: sha1:cb40e5fd2885dcf20f7c572a590b2656efe282a0
+    pristine_git_object: c00200cfd072e9febac5d6be783da1925d11dac0
   pyproject.toml:
-    last_write_checksum: sha1:9058d7b2d75eb69e249f3887d6fc116519722141
+    id: 5d07e7d72637
+    last_write_checksum: sha1:04d4664e49a57fa54f3b33cde0324b40ab288c64
+    pristine_git_object: 62c4c9554087bf8590b32960795f4169ce2dc15a
   scripts/prepare_readme.py:
+    id: e0c5957a6035
     last_write_checksum: sha1:03b20141f58578aa66bc6c7ef9efb47a4865c15e
+    pristine_git_object: 24ff138262b2aa99832a8441ccf7f4ea63274c5a
   scripts/publish.sh:
+    id: fe273b08f514
     last_write_checksum: sha1:b290b25b36dca3d5eb1a2e66a2e1bcf2e7326cf3
+    pristine_git_object: c35748f360329c2bc370e9b189f49b1a360b2c48
   src/openapi/__init__.py:
+    id: 2193235a49c0
     last_write_checksum: sha1:da077c0bdfcef64a4a5aea91a17292f72fa2b088
+    pristine_git_object: 833c68cd526fe34aab2b7e7c45f974f7f4b9e120
   src/openapi/_hooks/__init__.py:
+    id: eb61dfcd9b7e
     last_write_checksum: sha1:e3111289afd28ad557c21d9e2f918caabfb7037d
+    pristine_git_object: 2ee66cdd592fe41731c24ddd407c8ca31c50aec1
   src/openapi/_hooks/sdkhooks.py:
+    id: 5549d1ddcf6a
     last_write_checksum: sha1:99c1fbfaa66482cd8ce87e918d9c7d1f69c8e39c
+    pristine_git_object: cf0c7d97780f9c46c3532388534dd40921988db3
   src/openapi/_hooks/types.py:
+    id: c820aa6a1d19
     last_write_checksum: sha1:aaa420a43a875af8913a57482abd994daab2380c
+    pristine_git_object: 23003a98be95ca2520b495f72b63243820831e7a
   src/openapi/_version.py:
-    last_write_checksum: sha1:8c4f930dbda585d0fcbf141aae40a48cb671d157
+    id: 847cba25ff4f
+    last_write_checksum: sha1:60ba41761ed4d160e83006c2405235154da0ded4
+    pristine_git_object: 3daaa4be60c8afd25bbdd7921c002c8326783c5d
   src/openapi/basesdk.py:
+    id: 660860f75b5b
     last_write_checksum: sha1:51b582a78a548efb6bf44687966853d36ad26bd9
+    pristine_git_object: 205d27a6f025de6230aa73247a04e2fa8be59125
   src/openapi/errors/__init__.py:
+    id: e2df3ae9de2a
     last_write_checksum: sha1:3867ae520e5455c684d0f1347f15e6e6cc073dc4
+    pristine_git_object: 11d6e49afd309110ae2861a01d2d6c23e1eee0cd
   src/openapi/errors/no_response_error.py:
+    id: "848940953606"
     last_write_checksum: sha1:7f326424a7d5ae1bcd5c89a0d6b3dbda9138942f
+    pristine_git_object: 1deab64bc43e1e65bf3c412d326a4032ce342366
   src/openapi/errors/responsevalidationerror.py:
+    id: 8323ab6e005f
     last_write_checksum: sha1:353913f9fef3e3cf05bf65a4229870adbc56336a
+    pristine_git_object: 331e44460ed557acd136e1188e35d677a40e31b9
   src/openapi/errors/sdkdefaulterror.py:
+    id: 962b4dfd6ac5
     last_write_checksum: sha1:8340781f3add6c04a4eab804fcdde090b9b7409b
+    pristine_git_object: 8160af9575bac7435c368411cb88ec99e601b298
   src/openapi/errors/sdkerror.py:
+    id: "745951608665"
     last_write_checksum: sha1:64a913063ad8d0ad31b1013fe6523221ca38c51f
+    pristine_git_object: 16ac2977e80b6eabe4020aa8a21dd28e83032f9a
   src/openapi/httpclient.py:
+    id: 33e17e21d534
     last_write_checksum: sha1:5e55338d6ee9f01ab648cad4380201a8a3da7dd7
+    pristine_git_object: 89560b566073785535643e694c112bedbd3db13d
   src/openapi/models/__init__.py:
+    id: 2625e68206f1
     last_write_checksum: sha1:19df690554558ff9a2f807ccb2b569de39a756b9
+    pristine_git_object: 9d17bad1f5bfa95ca99ea7420503300f51c26af6
   src/openapi/models/pet.py:
+    id: f260f5e45e9c
     last_write_checksum: sha1:b095abfdf25a539a57f38ae2bcbc08d4046139e6
+    pristine_git_object: 2c11e721809e229995556820cdbd90c6f79e1acf
   src/openapi/py.typed:
+    id: 864858f50497
     last_write_checksum: sha1:8efc425ffe830805ffcc0f3055871bdcdc542c60
+    pristine_git_object: 3e38f1a929f7d6b1d6de74604aa87e3d8f010544
   src/openapi/sdk.py:
+    id: 4abd1e571a3e
     last_write_checksum: sha1:8345ae91d73bdc14bb8c8bf6b0865da393d931d4
+    pristine_git_object: cda46ad4a35507ee4485e6e669eecd2389fa0bb2
   src/openapi/sdkconfiguration.py:
+    id: 92b1e3c4e1a1
     last_write_checksum: sha1:5b8b75e4b15f4c673927197c0667fb275781af71
+    pristine_git_object: 354d7a75de7be77ac4d82d44ec92bb81715f65ad
   src/openapi/types/__init__.py:
+    id: 871875bbc945
     last_write_checksum: sha1:140ebdd01a46f92ffc710c52c958c4eba3cf68ed
+    pristine_git_object: fc76fe0c5505e29859b5d2bb707d48fd27661b8c
   src/openapi/types/basemodel.py:
+    id: 36eaa0e4ecbc
     last_write_checksum: sha1:10d84aedeb9d35edfdadf2c3020caa1d24d8b584
+    pristine_git_object: a9a640a1a7048736383f96c67c6290c86bf536ee
   src/openapi/utils/__init__.py:
+    id: 1becdd757ff7
     last_write_checksum: sha1:1970816f2234ecb8785798240b0edced961de971
+    pristine_git_object: 0498cb8dabf249b39609f81fb10cddc30f1b78b5
   src/openapi/utils/annotations.py:
+    id: a29398bf2663
     last_write_checksum: sha1:a4824ad65f730303e4e1e3ec1febf87b4eb46dbc
+    pristine_git_object: 12e0aa4f1151bb52474cc02e88397329b90703f6
   src/openapi/utils/datetimes.py:
+    id: 355a1d2f4a29
     last_write_checksum: sha1:c721e4123000e7dc61ec52b28a739439d9e17341
+    pristine_git_object: a6c52cd61bbe2d459046c940ce5e8c469f2f0664
   src/openapi/utils/dynamic_imports.py:
+    id: 8879debf7961
     last_write_checksum: sha1:a1940c63feb8eddfd8026de53384baf5056d5dcc
+    pristine_git_object: 673edf82a97d0fea7295625d3e092ea369a36b79
   src/openapi/utils/enums.py:
+    id: 6b89d9239f34
     last_write_checksum: sha1:bc8c3c1285ae09ba8a094ee5c3d9c7f41fa1284d
+    pristine_git_object: 3324e1bc2668c54c4d5f5a1a845675319757a828
   src/openapi/utils/eventstreaming.py:
+    id: ca58f9f4160f
     last_write_checksum: sha1:ffa870a25a7e4e2015bfd7a467ccd3aa1de97f0e
+    pristine_git_object: f2052fc22d9fd6c663ba3dce019fe234ca37108b
   src/openapi/utils/forms.py:
+    id: 783b19f68c9c
     last_write_checksum: sha1:0ca31459b99f761fcc6d0557a0a38daac4ad50f4
+    pristine_git_object: 1e550bd5c2c35d977ddc10f49d77c23cb12c158d
   src/openapi/utils/headers.py:
+    id: cc2d195736cc
     last_write_checksum: sha1:7c6df233ee006332b566a8afa9ce9a245941d935
+    pristine_git_object: 37864cbbbc40d1a47112bbfdd3ba79568fc8818a
   src/openapi/utils/logger.py:
+    id: 9c6526e036db
     last_write_checksum: sha1:f3fdb154a3f09b8cc43d74c7e9c02f899f8086e4
+    pristine_git_object: b661aff65d38b77d035149699aea09b2785d2fc6
   src/openapi/utils/metadata.py:
+    id: df1bd997db9b
     last_write_checksum: sha1:c6a560bd0c63ab158582f34dadb69433ea73b3d4
+    pristine_git_object: 173b3e5ce658675c2f504222a56b3daaaa68107d
   src/openapi/utils/queryparams.py:
+    id: d67a10d866c6
     last_write_checksum: sha1:b94c3f314fd3da0d1d215afc2731f48748e2aa59
+    pristine_git_object: c04e0db82b68eca041f2cb2614d748fbac80fd41
   src/openapi/utils/requestbodies.py:
+    id: 4a63bd40da79
     last_write_checksum: sha1:41e2d2d2d3ecc394c8122ca4d4b85e1c3e03f054
+    pristine_git_object: 1de32b6d26f46590232f398fdba6ce0072f1659c
   src/openapi/utils/retries.py:
+    id: c010f430da79
     last_write_checksum: sha1:471372f5c5d1dd5583239c9cf3c75f1b636e5d87
+    pristine_git_object: af07d4e941007af4213c5ec9047ef8a2fca04e5e
   src/openapi/utils/security.py:
+    id: a8afc1a9a4b7
     last_write_checksum: sha1:435dd8b180cefcd733e635b9fa45512da091d9c0
+    pristine_git_object: 17996bd54b8624009802fbbdf30bcb4225b8dfed
   src/openapi/utils/serializers.py:
+    id: 6573c33c17a8
     last_write_checksum: sha1:ce1d8d7f500a9ccba0aeca5057cee9c271f4dfd7
+    pristine_git_object: 14321eb479de81d0d9580ec8291e0ff91bf29e57
   src/openapi/utils/unmarshal_json_response.py:
+    id: 5e4498ffc5fa
     last_write_checksum: sha1:f1ed79fcd687eb6f939fef948d0545a1ab8ab8f0
+    pristine_git_object: 36dcecc6505c032039c2e2917bf723bb017bf104
   src/openapi/utils/url.py:
+    id: b71812aae0ed
     last_write_checksum: sha1:6479961baa90432ca25626f8e40a7bbc32e73b41
+    pristine_git_object: c78ccbae426ce6d385709d97ce0b1c2813ea2418
   src/openapi/utils/values.py:
+    id: 75405179360d
     last_write_checksum: sha1:acaa178a7c41ddd000f58cc691e4632d925b2553
+    pristine_git_object: dae01a44384ac3bc13ae07453a053bf6c898ebe3
 examples:
   listPets:
     speakeasy-default-list-pets:
