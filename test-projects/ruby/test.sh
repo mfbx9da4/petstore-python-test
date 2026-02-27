@@ -12,6 +12,6 @@ gem "openapi", git: "https://github.com/mfbx9da4/petstore-python-test", glob: "d
 GEMFILE
 
 bundle install
-ruby -e "require 'openapi'; puts 'Ruby SDK imported successfully'"
+bundle exec ruby -e "require 'openapi'; puts 'Ruby SDK imported successfully'"
 
 echo "PASS: Ruby installation test"

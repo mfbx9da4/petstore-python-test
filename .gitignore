@@ -1,0 +1,16 @@
+test-projects/csharp/test-project/
+test-projects/typescript/npm/node_modules/
+test-projects/typescript/npm/package-lock.json
+test-projects/typescript/pnpm/node_modules/
+test-projects/typescript/pnpm/pnpm-lock.yaml
+test-projects/typescript/bun/node_modules/
+test-projects/typescript/yarn/node_modules/
+test-projects/python/uv/.venv/
+test-projects/python/uv/uv.lock
+test-projects/python/uv/.python-version
+test-projects/python/uv/main.py
+test-projects/python/uv/README.md
+test-projects/python/pip/.venv/
+test-projects/python/poetry/.venv/
+test-projects/ruby/vendor/
+test-projects/ruby/.bundle/
